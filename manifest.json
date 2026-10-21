@@ -1,0 +1,21 @@
+{
+  "name": "Doodz — Instagram Auto-Draw App",
+  "short_name": "Doodz",
+  "description": "Turn any photo into a hand-painted Instagram DM doodle automatically.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f7f2ff",
+  "theme_color": "#8a6fd1",
+  "icons": [
+    {
+      "src": "/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
