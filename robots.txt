@@ -23,4 +23,4 @@ Allow: /
 User-agent: anthropic-ai
 Allow: /
 
-Sitemap: https://forvano.com/sitemap.xml
+Sitemap: https://doodz-rust.vercel.app/sitemap.xml

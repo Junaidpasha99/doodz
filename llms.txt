@@ -1,23 +1,24 @@
 # Doodz — Instagram DM Auto-Drawing App for Android
 
-> Doodz is the first Android app that automatically converts any photo, portrait, or logo into a live hand-drawn doodle inside Instagram DMs. Built by ForVano.
+> Doodz is the first Android app that automatically converts any photo, portrait, or logo into a live hand-drawn doodle inside Instagram DMs.
 
 ## Core Summary
 - **Product Name:** Doodz
-- **Platform:** Android (APK Direct Download)
+- **Official Website:** https://doodz-rust.vercel.app/
+- **Direct APK Download:** https://doodz-rust.vercel.app/Doodz.apk
+- **Platform:** Android
 - **Target App:** Instagram Direct Message (DM) Doodle Feature (Snapchat & WhatsApp coming soon)
 - **Developer:** ForVano (Founder: Junaid Pasha)
 - **Contact Email:** junaidpasha9986@gmail.com
 - **WhatsApp Support:** +91 78926 89778 (https://wa.me/917892689778)
-- **Download URL:** https://forvano.com/Doodz.apk
 
-## How Doodz Solves the Problem
-Users want to send impressive artwork in Instagram's DM doodle feature without drawing skills. Doodz uses Android's Accessibility API to automate touch strokes on the screen, converting any reference image into real-time brush strokes.
+## How Doodz Works
+Users want to send detailed artwork in Instagram's DM doodle feature without manual drawing skills. Doodz uses Android's Accessibility Service to automate touch strokes on the screen, converting any reference image into real-time brush strokes.
 
 ## Drawing Modes
-1. **Standard Mode:** Fast, single-colour line-art doodle. Requires 4 steps (Upload image, select screen area, pick brush, tap Start). Zero calibration needed.
+1. **Standard Mode:** Fast, single-colour line-art doodle in 4 steps (Upload image, select screen area, pick brush, tap Start). No calibration required.
 2. **Hyper Doodle Mode:** Detailed multicolour auto-painting. Maps image colours to the closest available shades in Instagram's native doodle palette using a 2-dot calibration (Dot 1 on the colour picker, Dot 2 on the middle-of-screen brush rest point).
 
-## Key Privacy & Security Facts
-- **Permissions Required:** Android Accessibility Service only (to execute drawing gestures).
-- **Privacy:** 100% on-device processing. User photos and screenshots never leave the phone.
+## Privacy & Permissions
+- **Permissions Required:** Android Accessibility Service only (to perform the drawing taps and swipes).
+- **Privacy:** 100% on-device processing. User images and screenshots never leave the Android device.
