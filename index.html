@@ -1,2965 +1,397 @@
 <!DOCTYPE html>
-<html lang="en" prefix="og: https://ogp.me/ns#">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+<html lang="en"><head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Doodz – Auto-Draw Instagram Doodle App for Android</title>
+<meta name="description" content="Doodz is an Android app that auto-draws any image as an Instagram doodle. Pick Standard for speed or Hyper Doodle for detailed multicolour doodles.">
+<meta name="keywords" content="instagram doodle auto draw, auto draw instagram doodle, instagram doodle app, instagram doodle android app, draw image on instagram doodle, instagram doodle copy image, hyper doodle, doodz">
+<meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1">
+<meta name="author" content="Doodz">
+<meta name="theme-color" content="#f7f2ff">
+<meta name="format-detection" content="telephone=no">
+<link rel="canonical" href="https://doodz-rust.vercel.app/">
+<link rel="alternate" hreflang="en" href="https://doodz-rust.vercel.app/">
+<link rel="alternate" hreflang="x-default" href="https://doodz-rust.vercel.app/">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="icon" href="/favicon-32.png" sizes="32x32" type="image/png">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<link rel="manifest" href="/site.webmanifest">
+<link rel="sitemap" type="application/xml" href="/sitemap.xml">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Doodz">
+<meta property="og:title" content="Doodz – Auto-Draw Instagram Doodle App for Android">
+<meta property="og:description" content="Turn any image into an Instagram doodle automatically. Standard mode for fast single-colour doodles, Hyper Doodle for detailed multicolour ones.">
+<meta property="og:url" content="https://doodz-rust.vercel.app/">
+<meta property="og:image" content="https://doodz-rust.vercel.app/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Doodz app: auto-draw any image as an Instagram doodle">
+<meta property="og:locale" content="en_IN">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Doodz – Auto-Draw Instagram Doodle App for Android">
+<meta name="twitter:description" content="Turn any image into an Instagram doodle automatically. Android app with Standard and Hyper Doodle modes.">
+<meta name="twitter:image" content="https://doodz-rust.vercel.app/og-image.png">
+<!-- Add after verifying: <meta name="google-site-verification" content="YOUR_CODE"> and <meta name="msvalidate.01" content="YOUR_BING_CODE"> -->
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"WebSite","@id":"https://doodz-rust.vercel.app/#website","url":"https://doodz-rust.vercel.app/","name":"Doodz","inLanguage":"en","description":"Android app that auto-draws any image as an Instagram doodle.","publisher":{"@id":"https://doodz-rust.vercel.app/#publisher"}},{"@type":"Organization","@id":"https://doodz-rust.vercel.app/#publisher","name":"ForVano","url":"https://forvano.com","email":"junaidpasha9986@gmail.com","telephone":"+917892689778","contactPoint":{"@type":"ContactPoint","contactType":"customer support","email":"junaidpasha9986@gmail.com","telephone":"+917892689778","availableLanguage":["English","Hindi"],"areaServed":"Worldwide"}},{"@type":"SoftwareApplication","@id":"https://doodz-rust.vercel.app/#app","name":"Doodz","alternateName":["Doodz Instagram Doodle Auto Draw","Hyper Doodle"],"url":"https://doodz-rust.vercel.app/","applicationCategory":"MultimediaApplication","operatingSystem":"Android","description":"Doodz is an Android app that automatically draws any image as an Instagram doodle. Standard mode makes a fast single-colour doodle; Hyper Doodle builds a detailed multicolour doodle using Instagram's colour palettes.","downloadUrl":"https://doodz-rust.vercel.app/Doodz.apk","image":"https://doodz-rust.vercel.app/og-image.png","inLanguage":"en","featureList":["Auto-draws any image as an Instagram doodle","Standard mode: fast single-colour doodles","Hyper Doodle mode: detailed multicolour doodles","Smart colour matching to Instagram's palette","Precise drawing-area placement","Preview of colours, size and line count","On-device processing","Accessibility permission only"],"offers":{"@type":"Offer","price":"0","priceCurrency":"INR","availability":"https://schema.org/InStock"},"author":{"@id":"https://doodz-rust.vercel.app/#publisher"},"publisher":{"@id":"https://doodz-rust.vercel.app/#publisher"}},{"@type":"WebPage","@id":"https://doodz-rust.vercel.app/#webpage","url":"https://doodz-rust.vercel.app/","name":"Doodz – Auto-Draw Instagram Doodle App for Android","isPartOf":{"@id":"https://doodz-rust.vercel.app/#website"},"about":{"@id":"https://doodz-rust.vercel.app/#app"},"dateModified":"2026-10-21","inLanguage":"en","primaryImageOfPage":{"@type":"ImageObject","url":"https://doodz-rust.vercel.app/og-image.png","width":1200,"height":630}},{"@type":"HowTo","name":"How to auto-draw an image on Instagram doodle with Doodz","totalTime":"PT2M","tool":[{"@type":"HowToTool","name":"Doodz for Android"}],"step":[{"@type":"HowToStep","position":1,"name":"Enable accessibility","text":"Turn on the Accessibility permission for Doodz. It is the only permission the app needs."},{"@type":"HowToStep","position":2,"name":"Send and select your image","text":"Send the picture in an Instagram chat, then select the same picture in the app as the reference."},{"@type":"HowToStep","position":3,"name":"Choose where to draw","text":"Drag and resize the box on a screenshot to set exactly where the drawing lands."},{"@type":"HowToStep","position":4,"name":"Calibrate with 2 dots (Hyper Doodle only)","text":"Place dot 1 on Instagram's colour picker. Select the picker, place dot 2 on the brush's rest point in the middle of the screen, then deselect the picker."},{"@type":"HowToStep","position":5,"name":"Press start","text":"Tap Start and the app draws every line for you."}]},{"@type":"FAQPage","@id":"https://doodz-rust.vercel.app/#faq","mainEntity":[{"@type":"Question","name":"How do I auto-draw an image on Instagram doodle?","acceptedAnswer":{"@type":"Answer","text":"Install Doodz on Android and turn on its Accessibility permission. Send the picture in an Instagram chat, select the same picture in the app, choose the drawing area and tap Start. In Hyper Doodle you also calibrate two dots first: one on the colour picker and one on the brush's rest point."}},{"@type":"Question","name":"Is there an app that draws on Instagram doodle automatically?","acceptedAnswer":{"@type":"Answer","text":"Yes. Doodz is an Android app built for exactly this. It copies your chosen image into an Instagram doodle, either as a fast single-colour doodle (Standard) or a detailed multicolour one (Hyper Doodle)."}},{"@type":"Question","name":"How do I install the Doodz APK?","acceptedAnswer":{"@type":"Answer","text":"Tap the download button, open the downloaded Doodz.apk file and, if Android asks, allow installs from your browser or file manager for this one install. Then open Doodz and enable the Accessibility permission."}},{"@type":"Question","name":"Will using Doodz get my Instagram account banned?","acceptedAnswer":{"@type":"Answer","text":"Doodz works on top of Instagram: it doesn't ask for your Instagram login or password, doesn't connect to your account and doesn't change the Instagram app. It only uses Android's Accessibility permission to tap and draw on your screen the way a finger would. Doodz isn't affiliated with or endorsed by Instagram or Meta, so we can't speak for how Instagram treats any account. Please use it responsibly."}},{"@type":"Question","name":"What is Doodz?","acceptedAnswer":{"@type":"Answer","text":"Doodz is an Android app that automatically draws your chosen image as a doodle inside Instagram. You pick the picture and the area, and the app handles the taps, colours and strokes for you."}},{"@type":"Question","name":"What is the difference between the modes?","acceptedAnswer":{"@type":"Answer","text":"Standard draws a clean single-colour doodle quickly: upload the image, select the area, select the brush and tap Start. There's no colour setup. Hyper Doodle takes more time and builds a detailed multicolour doodle using Instagram's colour palettes. It adds a short 2-dot calibration so the app knows where the colour picker and brush rest point are on your screen."}},{"@type":"Question","name":"Which mode should I start with?","acceptedAnswer":{"@type":"Answer","text":"Start with Standard. It's the fastest way to see how Doodz works. Move to Hyper Doodle when you want a detailed multicolour result and don't mind it taking longer."}},{"@type":"Question","name":"How long does a doodle take?","acceptedAnswer":{"@type":"Answer","text":"Standard is the quickest mode. Hyper Doodle is slower because it swaps colours and draws more lines, so the time depends on how detailed your image is and how big the drawing area is. The preview shows the line count before you start, which gives you a good idea of what to expect."}},{"@type":"Question","name":"Which images work best?","acceptedAnswer":{"@type":"Answer","text":"Clear, well-defined images with strong shapes and contrast tend to turn out best, such as logos, portraits and bold artwork. Very busy or tiny-detail photos have to be simplified into lines and a limited palette, so they won't look identical to the original."}},{"@type":"Question","name":"Will the colours match my image exactly?","acceptedAnswer":{"@type":"Answer","text":"Hyper Doodle can only use the colours Instagram's doodle tool offers, so each part of your image is matched to the closest available colour. It stays as true to the original as the palette permits, but expect a palette-based look rather than a perfect photo copy."}},{"@type":"Question","name":"Can I check the result before it draws?","acceptedAnswer":{"@type":"Answer","text":"Yes. The preview shows colours, size and line count before the first stroke, so you can check everything before anything is drawn."}},{"@type":"Question","name":"The drawing looks misaligned. What should I do?","acceptedAnswer":{"@type":"Answer","text":"Check the position of your drawing area first. In Hyper Doodle, redo the 2-dot calibration: dot 1 on the colour picker, and dot 2 on the brush's rest point in the middle of the screen (visible once the picker is selected). Then deselect the picker before starting."}},{"@type":"Question","name":"Which permissions does it need?","acceptedAnswer":{"@type":"Answer","text":"Only the Accessibility permission. It lets the app perform the taps and swipes that draw for you. Nothing else is required."}},{"@type":"Question","name":"Do my images leave my phone?","acceptedAnswer":{"@type":"Answer","text":"No. Images and screenshots are analysed and the drawing plan is created on your device."}},{"@type":"Question","name":"Does it work on iPhone?","acceptedAnswer":{"@type":"Answer","text":"Not yet. Doodz depends on Android accessibility and overlay features. iOS is on the wish list."}},{"@type":"Question","name":"Is it Instagram only?","acceptedAnswer":{"@type":"Answer","text":"For now, yes. Snapchat and WhatsApp are planned next."}},{"@type":"Question","name":"Is it affiliated with Instagram?","acceptedAnswer":{"@type":"Answer","text":"No. Instagram is a trademark of Meta, and Doodz is not endorsed by Meta. Please use it responsibly."}},{"@type":"Question","name":"How can I contact Doodz support?","acceptedAnswer":{"@type":"Answer","text":"Email junaidpasha9986@gmail.com or message us on WhatsApp (+91 78926 89778) for help, bug reports, feature ideas or partnerships."}}]}]}</script>
+<style>
+:root{--bg:#f7f2ff;--fg:#3b2f55;--mut:#6f6689;--card:#fff;--line:#e6dcf8;--a:#8a6fd1;--b:#f08fc0;--c:#7fd4b8;--g:#4aa88a;--ph:#fff;color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media(prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#15111f;--fg:#f1ecfb;--mut:#a79fc0;--card:#1f1a2e;--line:#332c49;--ph:#1f1a2e;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#15111f;--fg:#f1ecfb;--mut:#a79fc0;--card:#1f1a2e;--line:#332c49;--ph:#1f1a2e;color-scheme:dark}
+*{box-sizing:border-box;margin:0;-webkit-tap-highlight-color:transparent}
+html{scroll-behavior:smooth;scroll-padding-top:76px;-webkit-text-size-adjust:100%}
+body{background:var(--bg);color:var(--fg);font-family:Inter,system-ui,-apple-system,"Segoe UI",sans-serif;line-height:1.6;font-size:16px;overflow-x:hidden;padding-bottom:84px}
+a{color:inherit;text-decoration:none}
+.wrap{max-width:1040px;margin:auto;padding:0 20px;position:relative}
+#bar{position:fixed;top:0;left:0;height:3px;width:0;background:linear-gradient(90deg,var(--a),var(--b),var(--c));z-index:30}
+nav{position:sticky;top:0;z-index:20;backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);background:color-mix(in srgb,var(--bg) 82%,transparent);border-bottom:1px solid var(--line)}
+nav .wrap{display:flex;align-items:center;justify-content:space-between;height:58px}
+.logo{font-weight:800;letter-spacing:-.02em;display:flex;gap:8px;align-items:center;font-size:19px}
+.links{display:flex;gap:24px;font-size:14px;color:var(--mut)}
+.links a:hover{color:var(--fg)}
+@media(max-width:760px){.links{display:none}}
+.btn{display:inline-flex;gap:8px;align-items:center;justify-content:center;min-height:48px;padding:0 26px;border-radius:99px;font-weight:700;font-size:15px;background:var(--fg);color:var(--bg);border:1px solid var(--fg);cursor:pointer;transition:transform .2s;font-family:inherit}
+.btn:active{transform:scale(.97)}
+.btn.o{background:transparent;color:var(--fg);border-color:var(--line)}
+nav .btn{min-height:40px;padding:0 18px;font-size:14px}
+.pulse{animation:pl 2.4s infinite}
+@keyframes pl{0%{box-shadow:0 0 0 0 #f08fc088}70%{box-shadow:0 0 0 14px #f08fc000}100%{box-shadow:0 0 0 0 #f08fc000}}
+.blob{position:absolute;border-radius:50%;filter:blur(60px);opacity:.3;pointer-events:none;z-index:-1;animation:fl 12s ease-in-out infinite}
+@keyframes fl{50%{transform:translate(30px,-40px) scale(1.12)}}
+.grad{background:linear-gradient(90deg,var(--a),var(--b),var(--c),var(--a));background-size:300%;-webkit-background-clip:text;background-clip:text;color:transparent;font-style:normal;animation:gs 6s linear infinite}
+@keyframes gs{to{background-position:300%}}
+.hero{padding:44px 0 20px;text-align:center;position:relative;overflow:hidden}
+.mascot{display:block;margin:0 auto 14px;width:110px;animation:bob 4s ease-in-out infinite;filter:drop-shadow(0 12px 20px #8a6fd133)}
+@keyframes bob{50%{transform:translateY(-8px)}}
+.tag{display:inline-block;font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:var(--mut);border:1px solid var(--line);padding:6px 14px;border-radius:99px;margin-bottom:20px}
+.tag b{color:var(--g)}
+h1{font-size:clamp(34px,9.6vw,84px);line-height:1;letter-spacing:-.045em;font-weight:800}
+.hero>.wrap>p{max-width:560px;margin:20px auto 28px;color:var(--mut);font-size:clamp(16px,4.4vw,19px)}
+.cta{display:flex;gap:12px;justify-content:center;flex-wrap:wrap}
+.cta .btn{flex:1 1 200px;max-width:260px}
+.stage{display:grid;grid-template-columns:1fr 1fr;gap:28px;align-items:center;margin-top:44px}
+@media(max-width:760px){.stage{grid-template-columns:1fr;margin-top:34px}}
+.phone{width:min(240px,64vw);aspect-ratio:1/2;margin:auto;border:7px solid #1d1d27;border-radius:36px;background:var(--ph);position:relative;overflow:hidden;box-shadow:0 30px 70px #8a6fd140}
+.phone:before{content:"";position:absolute;top:7px;left:50%;width:64px;height:16px;margin-left:-32px;background:#1d1d27;border-radius:12px;z-index:2}
+.phone .top{height:50px;background:#f3f3f6;display:flex;align-items:flex-end;padding:0 14px 7px;font:600 12px system-ui;color:#222}
+.phone svg{width:100%;height:calc(100% - 50px);display:block}
+.draw{fill:none;stroke-width:5;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:1;stroke-dashoffset:1;animation:d 10s ease-in-out infinite}
+.draw:nth-of-type(2){animation-delay:1s}.draw:nth-of-type(3){animation-delay:2s}.draw:nth-of-type(4){animation-delay:3s}.draw:nth-of-type(5){animation-delay:4s}.draw:nth-of-type(6){animation-delay:5s}
+@keyframes d{0%{stroke-dashoffset:1}40%,88%{stroke-dashoffset:0}100%{stroke-dashoffset:1}}
+.chat{display:flex;flex-direction:column;gap:10px;text-align:left;max-width:380px;margin:auto;width:100%}
+.msg{max-width:86%;padding:11px 15px;border-radius:20px;font-size:15px;background:var(--card);border:1px solid var(--line);opacity:0;transform:translateY(14px) scale(.96)}
+.msg.me{align-self:flex-end;background:linear-gradient(135deg,var(--a),var(--b));color:#fff;border:0}
+.msg small{display:block;color:var(--mut);font-size:11px}.msg.me small{color:#fffb}
+.chat.in .msg{animation:pop .5s forwards}
+.chat.in .msg:nth-child(2){animation-delay:1s}.chat.in .msg:nth-child(3){animation-delay:2s}.chat.in .msg:nth-child(4){animation-delay:3s}
+@keyframes pop{to{opacity:1;transform:none}}
+section{padding:64px 0}
+@media(max-width:600px){section{padding:48px 0}}
+.eye{font-size:12px;letter-spacing:.16em;text-transform:uppercase;color:var(--a);margin-bottom:10px;font-weight:700}
+h2{font-size:clamp(30px,8vw,56px);letter-spacing:-.04em;line-height:1.05;margin-bottom:14px;font-weight:800}
+.sub{color:var(--mut);max-width:580px;font-size:clamp(16px,4.2vw,18px);margin-bottom:32px}
+.grid{display:grid;gap:14px;grid-template-columns:repeat(auto-fit,minmax(min(100%,250px),1fr))}
+.card,.mode{background:var(--card);border:1px solid var(--line);border-radius:22px;padding:26px;box-shadow:0 8px 30px #8a6fd114;position:relative;overflow:hidden}
+@media(hover:hover){.card,.mode{transition:transform .25s,border-color .25s}.card:hover,.mode:hover{transform:translateY(-6px);border-color:var(--a)}}
+.card .n{font-size:28px;display:block;margin-bottom:14px}
+.card h3{font-size:20px;letter-spacing:-.02em;margin-bottom:6px}
+.card p{color:var(--mut);font-size:15px}
+.mode.hot{border-color:var(--a);background:linear-gradient(160deg,#f08fc022,var(--card) 60%)}
+.lv{font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--a);font-weight:700}
+.mode h3{font-size:28px;letter-spacing:-.03em;margin:10px 0 6px}
+.mode p{color:var(--mut);font-size:15px;margin-bottom:16px}
+.badge{position:absolute;top:18px;right:18px;background:var(--g);color:#fff;font-size:10px;font-weight:700;padding:5px 11px;border-radius:99px;letter-spacing:.08em}
+.hot .badge{background:var(--a)}
+.ml{list-style:none;padding:0;margin:0 0 18px;counter-reset:s}
+.ml li{counter-increment:s;display:flex;gap:12px;align-items:center;padding:8px 0;font-weight:600;font-size:15px}
+.ml li:before{content:counter(s);width:26px;height:26px;flex:none;border-radius:50%;background:var(--a);color:#fff;display:grid;place-items:center;font-size:13px}
+.chips span{display:inline-block;margin:0 6px 6px 0;padding:6px 12px;border-radius:99px;background:var(--bg);border:1px solid var(--line);font-size:13px;font-weight:600}
+.spec{height:44px;border-radius:99px;background:linear-gradient(90deg,#f00,#ff0,#0f0,#0ff,#00f,#f0f,#f00);background-size:200%;animation:gs 5s linear infinite;box-shadow:0 0 50px #8a6fd150;margin:0 0 26px}
+.steps{position:relative;padding-left:48px}
+.steps:before{content:"";position:absolute;left:15px;top:0;bottom:0;width:3px;background:var(--line);border-radius:3px}
+.steps>i{position:absolute;left:15px;top:0;width:3px;border-radius:3px;background:linear-gradient(var(--a),var(--c));height:var(--p,0%)}
+.step{margin-bottom:34px;position:relative}
+.step:last-child{margin-bottom:0}
+.step:before{content:attr(data-n);position:absolute;left:-48px;top:0;width:34px;height:34px;border-radius:50%;background:var(--bg);border:2px solid var(--a);display:grid;place-items:center;font-weight:800;font-size:13px}
+.step h3{font-size:clamp(20px,5.4vw,25px);letter-spacing:-.03em;margin-bottom:4px}
+.step p{color:var(--mut);max-width:540px;font-size:15px}
+.step em{font-style:normal;font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:var(--a);font-weight:700;display:block}
+details{border-bottom:1px solid var(--line)}
+summary{cursor:pointer;font-weight:600;font-size:17px;list-style:none;display:flex;justify-content:space-between;align-items:center;gap:16px;padding:20px 0;min-height:60px}
+summary::-webkit-details-marker{display:none}
+summary:after{content:"+";color:var(--a);font-size:26px;line-height:1;transition:transform .3s;flex:none}
+details[open] summary:after{transform:rotate(45deg)}
+details p{color:var(--mut);padding:0 0 20px;max-width:700px;font-size:15.5px}
+details p+p{margin-top:-8px}
+.final{text-align:center;background:var(--card);border:1px solid var(--line);border-radius:30px;padding:60px 22px;margin:20px 0 40px;position:relative;overflow:hidden}
+.final .sub{margin:0 auto 26px}
+footer{border-top:1px solid var(--line);padding:26px 0;color:var(--mut);font-size:14px}
+footer .wrap{display:flex;justify-content:space-between;flex-wrap:wrap;gap:8px}
+footer a{color:var(--a);font-weight:700}
+.dock{position:fixed;left:0;right:0;bottom:0;z-index:25;padding:10px 16px calc(10px + env(safe-area-inset-bottom,0px));background:color-mix(in srgb,var(--bg) 88%,transparent);backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);border-top:1px solid var(--line);display:none;transform:translateY(110%);transition:transform .35s}
+.dock.show{transform:none}
+.dock .btn{width:100%}
+@media(max-width:760px){.dock{display:block}}
+#glow{position:fixed;width:420px;height:420px;border-radius:50%;background:radial-gradient(var(--c),transparent 65%);opacity:.18;pointer-events:none;z-index:-1;transform:translate(-50%,-50%);left:50%;top:30%;transition:left .4s,top .4s}
+.orbit{position:absolute;left:50%;top:300px;width:0;height:0;z-index:-1}.orbit i{position:absolute;width:12px;height:12px;border-radius:50%;margin:-6px;animation:ob 9s linear infinite}
+@keyframes ob{from{transform:rotate(0) translateX(var(--r))}to{transform:rotate(360deg) translateX(var(--r))}}
+.fh{position:absolute;top:230px;font-size:22px;color:var(--b);opacity:0;animation:up 6s infinite}@keyframes up{0%{opacity:0;transform:translateY(0)}20%{opacity:.8}100%{opacity:0;transform:translateY(-200px)}}
+.marq{border-block:1px solid var(--line);overflow:hidden;padding:16px 0;margin:30px 0;white-space:nowrap}.marq div{display:inline-block;animation:m 26s linear infinite;font-size:clamp(18px,5vw,24px);font-weight:800;letter-spacing:-.02em}.marq.r div{animation-direction:reverse;color:transparent;-webkit-text-stroke:1px var(--mut)}.marq span{color:var(--a);margin:0 22px;-webkit-text-stroke:0}@keyframes m{to{transform:translateX(-50%)}}
+#ld{position:fixed;inset:0;z-index:100;background:var(--bg);display:grid;place-items:center;transition:opacity .6s,visibility .6s}#ld.out{opacity:0;visibility:hidden}#ld .li{text-align:center}#ld svg.cat{width:150px;display:block;margin:auto;animation:bob 2.4s ease-in-out infinite}#ld h3{font-size:32px;font-weight:800;letter-spacing:-.03em;margin-top:8px}#ld p{font-size:13px;color:var(--mut);margin-top:6px}#ld .sq{width:180px;height:22px;display:block;margin:12px auto 0}#ld .sq path{fill:none;stroke:var(--b);stroke-width:5;stroke-linecap:round;stroke-dasharray:1;stroke-dashoffset:1;animation:sqd 1.8s ease-in-out infinite}@keyframes sqd{0%{stroke-dashoffset:1}65%,100%{stroke-dashoffset:0}}
+.meter{height:8px;border-radius:9px;background:var(--line);overflow:hidden}.meter b{display:block;height:100%;width:0;border-radius:9px;background:linear-gradient(90deg,var(--a),var(--b),var(--c));transition:width 1.6s cubic-bezier(.2,.8,.2,1)}.meter.in b{width:var(--w)}
+.ring{width:110px;height:110px;border-radius:50%;background:conic-gradient(var(--a) calc(var(--p2,0)*3.6deg),var(--line) 0);display:grid;place-items:center;margin:0 0 12px}.ring span{width:88px;height:88px;border-radius:50%;background:var(--card);display:grid;place-items:center;font-weight:800;font-size:26px}
+.mode .meter{margin-top:6px}.mode .rn{margin:-2px 0 12px;font-size:13px}
+.sd{display:grid;grid-template-columns:1fr 1fr;gap:40px;align-items:center}@media(max-width:800px){.sd{grid-template-columns:1fr}}
+.st{list-style:none;padding:0;margin:0 0 18px}.st li{display:flex;gap:14px;align-items:center;padding:14px 18px;margin-bottom:10px;background:var(--card);border:1px solid var(--line);border-radius:16px;font-weight:600;font-size:16px;opacity:.4;animation:var(--an) 8s infinite}.st b{width:30px;height:30px;border-radius:50%;background:var(--a);color:#fff;display:grid;place-items:center;font-size:14px;flex:none}
+.s1{--an:h1}.s2{--an:h2}.s3{--an:h3}.s4{--an:h4}
+@keyframes h1{0%,12%{opacity:1;border-color:var(--a)}16%,100%{opacity:.4}}@keyframes h2{0%,12%{opacity:.4}16%,28%{opacity:1;border-color:var(--a)}32%,100%{opacity:.4}}@keyframes h3{0%,28%{opacity:.4}32%,46%{opacity:1;border-color:var(--a)}50%,100%{opacity:.4}}@keyframes h4{0%,46%{opacity:.4}50%,92%{opacity:1;border-color:var(--a)}100%{opacity:.4}}
+.up{opacity:0;animation:upa 8s infinite}@keyframes upa{0%{opacity:0;transform:translateY(24px)}6%,13%{opacity:1;transform:none}17%,100%{opacity:0}}
+.sdemo{background:var(--card);border:1px solid var(--line);border-radius:28px;padding:16px;box-shadow:0 20px 60px #8a6fd122;max-width:380px;margin:auto;width:100%}.sdemo svg{width:100%;display:block;background:#faf7ff;border-radius:18px}
+.area{fill:#f08fc014;stroke:var(--b);stroke-width:3;stroke-dasharray:8 6;opacity:0;animation:ar 8s infinite}@keyframes ar{0%,14%{opacity:0}19%,92%{opacity:1}100%{opacity:0}}
+.ln{fill:none;stroke:#8a6fd1;stroke-width:7;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:1;stroke-dashoffset:1;animation:dl 8s infinite}@keyframes dl{0%,54%{stroke-dashoffset:1}90%,96%{stroke-dashoffset:0}100%{stroke-dashoffset:1}}
+.bar{display:flex;align-items:center;gap:14px;margin-top:16px}.bar .br{border-radius:50%;background:#8a6fd1;opacity:.6}.bar .sel{opacity:1;animation:bs 8s infinite}@keyframes bs{0%,30%{box-shadow:none}34%,92%{box-shadow:0 0 0 4px var(--b)}100%{box-shadow:none}}
+.go{margin-left:auto;background:var(--a);color:#fff;padding:10px 20px;border-radius:99px;font-weight:700;font-size:14px;animation:gp 8s infinite}@keyframes gp{0%,48%{transform:scale(1)}51%{transform:scale(.9);background:var(--b)}56%,100%{transform:scale(1)}}
+.ba{display:grid;grid-template-columns:1fr 1fr;gap:14px}.ba div{aspect-ratio:1;border-radius:22px;border:1px solid var(--line);background:var(--card);display:grid;place-items:center;font-size:13px;color:var(--mut);position:relative;overflow:hidden;padding:8px}.ba svg{width:80%}
+.stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(130px,1fr));gap:16px;text-align:center}.stats b{display:block;font-size:clamp(40px,10vw,68px);letter-spacing:-.04em}.stats span{color:var(--mut);font-size:14px}
+.soon{display:flex;gap:10px;flex-wrap:wrap}.soon span{padding:10px 18px;border:1px dashed var(--line);border-radius:99px;color:var(--mut);font-size:14px}.soon span.live{border:1px solid var(--g);color:var(--g)}
+.tut{display:grid;grid-template-columns:1fr 280px;gap:40px;align-items:center}@media(max-width:800px){.tut{grid-template-columns:1fr;gap:28px}.tut .tp{order:-1}}
+.tl{display:flex;flex-direction:column;gap:10px}.ti{display:flex;gap:14px;padding:16px 18px;border:1px solid var(--line);border-radius:18px;cursor:pointer;background:var(--card);opacity:.55;transition:all .4s;position:relative;overflow:hidden}.ti.on{opacity:1;border-color:var(--a);transform:translateX(6px)}
+.ti b{width:32px;height:32px;flex:none;border-radius:50%;display:grid;place-items:center;background:var(--line);font-size:14px}.ti.on b{background:var(--a);color:#fff}.ti h4{font-size:17px}.ti p{font-size:14px;color:var(--mut)}
+.ti i{position:absolute;left:0;bottom:0;height:3px;width:0;background:linear-gradient(90deg,var(--a),var(--c))}.ti.on i{animation:fillb 5s linear forwards}@keyframes fillb{to{width:100%}}
+.tp{width:260px;height:520px;margin:auto;border:8px solid #1d1d27;border-radius:38px;background:#f6f6f9;position:relative;overflow:hidden;box-shadow:0 30px 80px #f08fc030;color:#222;font-family:system-ui}
+.sc{position:absolute;inset:0;padding:46px 16px 16px;opacity:0;transform:scale(.96);transition:all .5s;pointer-events:none}.sc.on{opacity:1;transform:none}.sc h5{font-size:15px;margin-bottom:14px}
+.sw{display:flex;justify-content:space-between;align-items:center;background:#fff;border-radius:14px;padding:13px;margin-bottom:10px;font-size:13px;box-shadow:0 2px 8px #0001}
+.sw s{width:38px;height:22px;border-radius:99px;background:#ccc;position:relative;text-decoration:none}.sw s:after{content:"";position:absolute;left:2px;top:2px;width:18px;height:18px;border-radius:50%;background:#fff}
+.sc.on .sw s{animation:tg .5s .1s forwards}.sc.on .sw s:after{animation:tk .5s .1s forwards}@keyframes tg{to{background:#5bbf9c}}@keyframes tk{to{left:18px}}
+.pic{width:90px;height:64px;border-radius:12px;background:linear-gradient(135deg,#f08fc0,#ffd36e,#8a6fd1);margin:20px auto}.sc.on .pic.fly{animation:fly 3s ease-in-out infinite}@keyframes fly{0%{transform:translateY(0)}60%,100%{transform:translateY(210px) scale(.7)}}
+.bub{position:absolute;right:16px;bottom:60px;width:110px;height:76px;border-radius:18px;background:#e8e8ef;display:grid;place-items:center;font-size:11px;color:#777}
+.shot{height:300px;border-radius:14px;background:#fff;position:relative;box-shadow:0 2px 8px #0001}.box{position:absolute;border:3px dashed #f08fc0;border-radius:8px;background:#f08fc018;left:30px;top:40px;width:70px;height:60px}.sc.on .box{animation:rs 3.5s ease-in-out infinite}@keyframes rs{0%{left:30px;top:40px;width:70px;height:60px}60%,100%{left:20px;top:110px;width:170px;height:130px}}
+.dsc svg{width:100%;height:300px;background:#fff;border-radius:14px}.dsc path{fill:none;stroke-width:5;stroke-linecap:round;stroke-dasharray:1;stroke-dashoffset:1}.sc.on .dsc path,.dsc.on path{animation:d 5s ease-in-out infinite}.dsc path:nth-child(2){animation-delay:.7s!important}.dsc path:nth-child(3){animation-delay:1.4s!important}
+.fing{position:absolute;font-size:30px;left:60px;top:200px;opacity:0}.sc.on .fing{animation:fg 5s ease-in-out infinite}@keyframes fg{0%{opacity:1;left:60px;top:200px}30%{left:150px;top:260px}60%{left:90px;top:320px}100%{opacity:1;left:180px;top:240px}}
+.pill{display:inline-block;margin-top:14px;background:#f08fc0;color:#fff;border-radius:99px;padding:9px 20px;font-size:13px;font-weight:700}
+.cal{height:300px;background:#fff;border-radius:14px;position:relative;box-shadow:0 2px 8px #0001}.pk{position:absolute;left:30px;top:230px;width:44px;height:44px;border-radius:50%;background:conic-gradient(#f00,#ff0,#0f0,#0ff,#00f,#f0f,#f00)}
+.rest{position:absolute;left:91px;top:135px;width:30px;height:30px;border-radius:50%;border:3px solid #222;background:#f08fc0;opacity:0}.strip{position:absolute;left:150px;top:60px;width:24px;height:190px;border-radius:12px;background:linear-gradient(#f00,#ff0,#0f0,#0ff,#00f,#f0f);opacity:0}
+.mk{position:absolute;width:26px;height:26px;border-radius:50%;background:#f08fc0;color:#fff;font:700 13px/26px system-ui;text-align:center;opacity:0;box-shadow:0 3px 10px #f08fc080}.m1{left:39px;top:239px}.m2{left:93px;top:137px}
+.cap{position:absolute;left:16px;right:16px;margin-top:12px;font-size:12px;color:#444;text-align:center;opacity:0}
+.sc.on .pk{animation:pks 5s infinite}.sc.on .strip,.sc.on .rest{animation:sts 5s infinite}.sc.on .m1{animation:mk1 5s infinite}.sc.on .m2{animation:mk2 5s infinite}.sc.on .c1{animation:cp1 5s infinite}.sc.on .c2{animation:cp2 5s infinite}
+@keyframes pks{0%,42%{box-shadow:none}48%,88%{box-shadow:0 0 0 4px #f08fc0}94%,100%{box-shadow:none}}@keyframes sts{0%,40%{opacity:0}48%,82%{opacity:1}92%,100%{opacity:0}}@keyframes mk1{0%{opacity:0;transform:translateY(-24px)}12%,94%{opacity:1;transform:none}100%{opacity:0}}@keyframes mk2{0%,58%{opacity:0;transform:translateY(-24px)}68%,94%{opacity:1;transform:none}100%{opacity:0}}@keyframes cp1{0%,42%{opacity:1}50%,100%{opacity:0}}@keyframes cp2{0%,46%{opacity:0}54%,94%{opacity:1}100%{opacity:0}}
+.rv{opacity:0;transform:translateY(26px);transition:opacity .7s ease,transform .7s ease}.rv.in{opacity:1;transform:none}
+@media(max-width:700px){.snap{display:flex;overflow-x:auto;scroll-snap-type:x mandatory;gap:12px;margin:0 -20px;padding:4px 20px 18px;-webkit-overflow-scrolling:touch;scrollbar-width:none}.snap::-webkit-scrollbar{display:none}.snap>*{flex:0 0 84%;scroll-snap-align:center}#features .grid{grid-template-columns:1fr 1fr;gap:10px}#features .card{padding:18px}#features .card .n{font-size:24px;margin-bottom:10px}#features .card h3{font-size:16px}#features .card p{font-size:13.5px}#features .card:last-child{grid-column:1/-1}}
+@media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}.rv,.msg{opacity:1;transform:none}.draw{stroke-dashoffset:0}}
 
-    <!-- Primary SEO Meta Tags -->
-    <title>Doodz — Auto Draw on Instagram DMs | Turn Any Photo into an Instagram Doodle</title>
-    <meta
-      name="title"
-      content="Doodz — Auto Draw on Instagram DMs | Turn Any Photo into an Instagram Doodle"
-    />
-    <meta
-      name="description"
-      content="Doodz is the #1 Android auto-drawing app for Instagram DMs. Automatically convert and draw any photo, portrait, or logo into a hand-painted Instagram chat doodle using Standard or multicolour Hyper Doodle mode."
-    />
-    <meta
-      name="keywords"
-      content="Doodz, Doodz app, Doodz APK, Instagram doodle auto draw, how to draw on Instagram DM, turn photo into Instagram doodle, Instagram chat drawing hack, auto draw app Android, Instagram DM doodle bot, automatic drawing app for Instagram, Hyper Doodle, ForVano"
-    />
-    <meta name="author" content="Junaid Pasha — ForVano" />
-    <meta name="publisher" content="ForVano" />
-    <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
-    <meta name="googlebot" content="index, follow" />
-    <link rel="canonical" href="https://doodz-rust.vercel.app/" />
+.skip{position:absolute;left:-999px;top:8px;background:var(--fg);color:var(--bg);padding:10px 16px;border-radius:10px;z-index:200}.skip:focus{left:12px}
+:focus-visible{outline:3px solid var(--b);outline-offset:3px;border-radius:6px}
+.tbl{overflow-x:auto;border:1px solid var(--line);border-radius:18px;background:var(--card);margin:0 0 26px;-webkit-overflow-scrolling:touch}
+.tbl table{width:100%;border-collapse:collapse;min-width:480px;font-size:15px}
+.tbl caption{text-align:left;font-weight:800;padding:16px 18px 6px;font-size:17px;letter-spacing:-.02em}
+.tbl th,.tbl td{text-align:left;padding:12px 18px;border-top:1px solid var(--line);vertical-align:top}
+.tbl thead th{color:var(--a);font-size:12px;letter-spacing:.1em;text-transform:uppercase}
+.tbl tbody th{font-weight:700;white-space:nowrap}.tbl td{color:var(--mut)}
+.uh{font-size:20px;letter-spacing:-.02em;margin:8px 0 12px}
+.uses span{font-size:14px;padding:8px 14px}
+.contact-grid{display:grid;gap:14px;grid-template-columns:repeat(auto-fit,minmax(min(100%,300px),1fr))}
+.cc{display:flex;flex-direction:column;gap:6px;align-items:flex-start}.cc .n{font-size:30px}.cc h3{margin:0}.cc p{margin-bottom:12px}.cc .btn{margin-top:auto;word-break:break-all;text-align:center}
+.btn.wa{background:#25D366;border-color:#25D366;color:#073b1d}
+.waf{position:fixed;right:16px;bottom:calc(88px + env(safe-area-inset-bottom,0px));z-index:26;width:56px;height:56px;border-radius:50%;background:#25D366;display:grid;place-items:center;box-shadow:0 8px 24px #0004;transition:transform .2s}
+.waf:hover{transform:scale(1.08)}.waf svg{width:32px;height:32px}
+@media(min-width:761px){.waf{bottom:24px;right:24px}}
+footer .fl{display:flex;gap:16px;flex-wrap:wrap}footer .fl a{font-weight:600}
+</style></head>
+<body>
+<a class="skip" href="#main">Skip to content</a><noscript><style>.rv,.msg{opacity:1!important;transform:none!important}#ld{display:none!important}.draw,.ln{stroke-dashoffset:0!important}</style></noscript>
+<div id="ld"><div class="li"><svg class="cat" viewBox="120 110 272 300"><use href="#mg"/></svg><h3 class="grad">Doodz</h3><svg class="sq" viewBox="0 0 200 22"><path pathLength="1" d="M10 11q15-14 30 0t30 0t30 0t30 0t30 0t30 0"/></svg><p>Getting your doodle ready…</p></div></div><div id="bar"></div><div id="glow"></div>
+<nav><div class="wrap"><a href="#" class="logo"><svg width="30" height="30" viewBox="135 150 242 235" aria-hidden="true"><path d="M170 230L170 160L215 195Q256 185 297 195L342 160L342 230Q372 290 330 340Q295 375 256 375Q217 375 182 340Q140 290 170 230Z" fill="#fdfbff" stroke="#8a6fd1" stroke-width="8" stroke-linejoin="round"/><path d="M184 185L184 214L208 200Z" fill="#ffc4e0"/><path d="M328 185L328 214L304 200Z" fill="#ffc4e0"/><path d="M198 276Q212 290 226 276M286 276Q300 290 314 276" fill="none" stroke="#5a4a4a" stroke-width="9" stroke-linecap="round"/><path d="M246 304h20l-10 11z" fill="#ffc4e0"/></svg>Doodz</a>
+<div class="links"><a href="#what">What is Doodz</a><a href="#modes">Modes</a><a href="#how">How it works</a><a href="#faq">FAQ</a><a href="#contact">Contact</a></div>
+<a href="Doodz.apk" class="btn" download>Get the app</a></div></nav>
 
-    <!-- GEO / Location & Language Meta Tags -->
-    <meta name="language" content="English" />
-    <meta name="geo.region" content="IN-KA" />
-    <meta name="geo.placename" content="Bengaluru" />
-    <meta name="application-name" content="Doodz" />
-    <meta name="theme-color" content="#f7f2ff" />
+<main id="main"><header class="hero"><div class="blob" style="width:260px;height:260px;background:var(--a);left:-90px;top:30px"></div><div class="blob" style="width:280px;height:280px;background:var(--c);right:-110px;top:220px;animation-delay:-4s"></div>
+<div class="orbit"><i style="--r:min(250px,40vw);background:#f08fc0"></i><i style="--r:min(320px,48vw);background:#ffd36e;animation-duration:14s"></i><i style="--r:min(190px,32vw);background:#8a6fd1;animation-duration:11s"></i><i style="--r:min(370px,54vw);background:#5bbf9c;animation-duration:18s"></i></div>
+<div class="wrap">
+<svg class="mascot" viewBox="120 110 272 300" aria-hidden="true"><g id="mg"><g transform="translate(256 205) scale(.72) translate(-256 -270)"><path d="M170 230L170 160L215 195Q256 185 297 195L342 160L342 230Q372 290 330 340Q295 375 256 375Q217 375 182 340Q140 290 170 230Z" fill="#fdfbff" stroke="#8a6fd1" stroke-width="8" stroke-linejoin="round"/><path d="M184 185L184 214L208 200Z" fill="#ffc4e0"/><path d="M328 185L328 214L304 200Z" fill="#ffc4e0"/><path d="M198 276Q212 290 226 276M286 276Q300 290 314 276" fill="none" stroke="#5a4a4a" stroke-width="9" stroke-linecap="round"/><path d="M246 304h20l-10 11z" fill="#ffc4e0"/></g><path d="M256 402C150 337 150 267 205 260C232 256 248 274 256 287C264 274 280 256 307 260C362 267 362 337 256 402Z" fill="#f08fc0"/><ellipse cx="212" cy="270" rx="22" ry="15" fill="#fdfbff" stroke="#8a6fd1" stroke-width="5"/><ellipse cx="300" cy="270" rx="22" ry="15" fill="#fdfbff" stroke="#8a6fd1" stroke-width="5"/></g></svg><span class="fh" style="left:22%;animation-delay:0s">♥</span><span class="fh" style="left:38%;animation-delay:1.5s">♥</span><span class="fh" style="left:62%;animation-delay:3s">♥</span><span class="fh" style="left:78%;animation-delay:4.5s">♥</span>
+<span class="tag"><b>●</b> Instagram · Android</span>
+<h1>Auto-draw Instagram doodles<br>like a <em class="grad" id="w">pro.</em></h1>
+<p>Doodz draws Instagram doodles for you. Go <b>Standard</b> for a fast single-colour doodle, or <b>Hyper Doodle</b> for a detailed multicolour masterpiece.</p>
+<div class="cta"><a href="Doodz.apk" class="btn pulse" download>Download for Android</a><a href="#modes" class="btn o">Compare modes</a></div>
+<div class="stage">
+<div class="phone"><div class="top">Instagram · Doodle</div>
+<svg viewBox="0 0 250 440" aria-hidden="true"><rect width="250" height="440" fill="#fff"/>
+<path class="draw" pathLength="1" stroke="#f08fc0" d="M125 90 C60 90 40 180 80 230 C100 255 125 280 125 300 C125 280 150 255 170 230 C210 180 190 90 125 90Z"/>
+<path class="draw" pathLength="1" stroke="#ffd36e" d="M40 330 C80 300 120 360 160 330 S220 310 225 340"/>
+<path class="draw" pathLength="1" stroke="#8a6fd1" d="M60 50 l8 -16 l8 16 l-16 -10 h16z"/>
+<path class="draw" pathLength="1" stroke="#5bbf9c" d="M190 60 C210 40 225 60 205 80 C190 90 180 75 190 60Z"/>
+<path class="draw" pathLength="1" stroke="#7fb8f0" d="M30 390 C80 370 170 410 220 385"/>
+</svg></div>
+<div class="chat" id="chat1">
+<div class="msg"><small>Priya</small>wait… did you draw this by hand??</div>
+<div class="msg me"><small>You</small>obviously 😎</div>
+<div class="msg"><small>Rahul</small>bro that's insane, teach me</div>
+<div class="msg me"><small>You</small>a magician never reveals 🎩</div>
+</div>
+</div></div></header>
 
-    <!-- Open Graph / Facebook / WhatsApp / Instagram DM Link Previews -->
-    <meta property="og:type" content="website" />
-    <meta property="og:site_name" content="Doodz" />
-    <meta property="og:url" content="https://doodz-rust.vercel.app/" />
-    <meta property="og:title" content="Doodz — Auto-Draw Any Photo into an Instagram DM Doodle" />
-    <meta
-      property="og:description"
-      content="Impress your friends with pixel-perfect Instagram chat doodles drawn automatically on your screen. Choose fast single-colour Standard mode or multicolour Hyper Doodle."
-    />
-    <meta property="og:image" content="https://doodz-rust.vercel.app/doodz-og-preview.png" />
-    <meta property="og:image:width" content="1200" />
-    <meta property="og:image:height" content="630" />
-    <meta property="og:image:alt" content="Doodz Android App automatically drawing a multicolour doodle inside an Instagram chat" />
-    <meta property="og:locale" content="en_US" />
+<div class="marq" aria-hidden="true"><div>Standard Doodle <span>✦</span> Hyper Doodle <span>✦</span> Impress everyone <span>✦</span> Hands-free <span>✦</span> Pixel-perfect <span>✦</span> Draw like a pro <span>✦</span> Impress everyone <span>✦</span> Hands-free <span>✦</span> Pixel-perfect <span>✦</span> </div></div>
 
-    <!-- Twitter / X Cards -->
-    <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:url" content="https://doodz-rust.vercel.app/" />
-    <meta name="twitter:title" content="Doodz — Auto Draw on Instagram DMs (Android)" />
-    <meta
-      name="twitter:description"
-      content="Turn any photo, portrait, or logo into a live hand-drawn Instagram DM doodle automatically. Zero drawing skill needed."
-    />
-    <meta name="twitter:image" content="https://doodz-rust.vercel.app/doodz-og-preview.png" />
+<section id="what"><div class="wrap">
+<div class="eye rv">What is Doodz?</div><h2 class="rv">The Instagram doodle <span class="grad">auto-drawer.</span></h2>
+<p class="sub rv"><b>Doodz is an Android app that automatically draws any image as a doodle on Instagram.</b> You pick the picture and the area, and the app taps, swaps colours and draws every line for you, so your doodle looks hand-painted without any drawing skill.</p>
+<div class="tbl rv"><table><caption>Doodz at a glance</caption><tbody>
+<tr><th scope="row">What it does</th><td>Auto-draws any image as an Instagram doodle</td></tr>
+<tr><th scope="row">Works on</th><td>Android (iPhone not yet)</td></tr>
+<tr><th scope="row">Works with</th><td>Instagram's doodle tool</td></tr>
+<tr><th scope="row">Modes</th><td>Standard (fast, single colour) and Hyper Doodle (detailed, multicolour)</td></tr>
+<tr><th scope="row">Permission needed</th><td>Accessibility only</td></tr>
+<tr><th scope="row">Privacy</th><td>Images and screenshots are processed on your device</td></tr>
+<tr><th scope="row">Get it</th><td>Direct APK download from this site</td></tr>
+</tbody></table></div>
+<h3 class="uh rv">Popular things to auto-draw</h3>
+<div class="chips uses rv"><span>🧑‍🎨 Portraits</span><span>🏷 Logos</span><span>😂 Memes</span><span>🎌 Anime &amp; cartoons</span><span>🎂 Birthday wishes</span><span>💞 Couple pics</span><span>✍️ Quotes &amp; text</span></div>
+<div class="tbl rv" style="margin-top:22px"><table><caption>Standard vs Hyper Doodle</caption>
+<thead><tr><th scope="col">Feature</th><th scope="col">Standard</th><th scope="col">Hyper Doodle</th></tr></thead><tbody>
+<tr><th scope="row">Colours</th><td>Single colour</td><td>Multicolour, matched to Instagram's palette</td></tr>
+<tr><th scope="row">Speed</th><td>Quickest</td><td>Slower, worth the wait</td></tr>
+<tr><th scope="row">Setup</th><td>Upload image, select area, select brush, tap Start</td><td>Select area, calibrate with 2 dots, tap Start</td></tr>
+<tr><th scope="row">Calibration</th><td>None</td><td>2 dots (colour picker and brush rest point)</td></tr>
+<tr><th scope="row">Best for</th><td>A fast, clean result</td><td>A detailed multicolour masterpiece</td></tr>
+</tbody></table></div>
+<p class="sub rv" style="margin:0">New here? Read the guide: <a href="/guides/how-to-auto-draw-on-instagram-doodle/" style="color:var(--a);font-weight:700">how to auto-draw an image on Instagram doodle</a>.</p>
+</div></section>
 
-    <!-- Inline SVG Favicon & PWA Manifest -->
-    <link
-      rel="icon"
-      type="image/svg+xml"
-      href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='135 150 242 235'%3E%3Cpath d='M170 230L170 160L215 195Q256 185 297 195L342 160L342 230Q372 290 330 340Q295 375 256 375Q217 375 182 340Q140 290 170 230Z' fill='%23fdfbff' stroke='%238a6fd1' stroke-width='12' stroke-linejoin='round'/%3E%3Cpath d='M184 185L184 214L208 200Z' fill='%23ffc4e0'/%3E%3Cpath d='M328 185L328 214L304 200Z' fill='%23ffc4e0'/%3E%3Cpath d='M198 276Q212 290 226 276M286 276Q300 290 314 276' fill='none' stroke='%235a4a4a' stroke-width='12' stroke-linecap='round'/%3E%3Cpath d='M246 304h20l-10 11z' fill='%23ffc4e0'/%3E%3C/svg%3E"
-    />
-    <link rel="manifest" href="/manifest.json" />
+<section id="story"><div class="wrap">
+<div class="eye rv">The flex</div><h2 class="rv">Your doodles.<br><span class="grad">Suddenly professional.</span></h2><p class="sub rv">Everyone scribbles stick figures. You'll send portraits, logos and artwork, drawn live in the chat. No talent required.</p>
+<div class="grid snap">
+<div class="card rv"><span class="n">😮</span><h3>Jaws drop</h3><p>Watch the reactions roll in as a full picture appears stroke by stroke.</p></div>
+<div class="card rv"><span class="n">⚡</span><h3>Zero skill</h3><p>You pick the image. The app handles colours, lines and taps.</p></div>
+<div class="card rv"><span class="n">🎭</span><h3>Keep the secret</h3><p>It draws just like a human would, so nobody has to know.</p></div>
+</div></div></section>
 
-    <!-- JSON-LD Structured Data for Google Rich Snippets & AI Engines (GEO) -->
-    <script type="application/ld+json">
-      {
-        "@context": "https://schema.org",
-        "@graph": [
-          {
-            "@type": "WebSite",
-            "@id": "https://doodz-rust.vercel.app/#website",
-            "url": "https://doodz-rust.vercel.app/",
-            "name": "Doodz",
-            "description": "Auto-draw any image into an Instagram DM doodle in Standard or Hyper Doodle mode.",
-            "publisher": {
-              "@id": "https://doodz-rust.vercel.app/#organization"
-            }
-          },
-          {
-            "@type": "SoftwareApplication",
-            "@id": "https://doodz-rust.vercel.app/#app",
-            "name": "Doodz",
-            "alternateName": "Doodz Instagram Auto-Draw App",
-            "url": "https://doodz-rust.vercel.app/",
-            "operatingSystem": "Android",
-            "applicationCategory": "MultimediaApplication",
-            "applicationSubCategory": "Social Media Drawing & Automation Tool",
-            "description": "Doodz is an Android application that automatically converts any image, portrait, or logo into live hand-drawn strokes inside Instagram DMs using Standard single-colour mode or multicolour Hyper Doodle mode.",
-            "downloadUrl": "https://doodz-rust.vercel.app/Doodz.apk",
-            "installUrl": "https://doodz-rust.vercel.app/Doodz.apk",
-            "softwareVersion": "1.0",
-            "featureList": [
-              "Standard Mode: Fast single-colour automatic Instagram doodle drawing",
-              "Hyper Doodle Mode: Detailed multicolour auto-painting mapped to Instagram's native colour palette",
-              "Smart Colour Matching: Maps image pixels to the closest shade available in Instagram's doodle picker",
-              "2-Dot Screen Calibration: Precision alignment for any Android screen size",
-              "Pre-Draw Stroke & Colour Preview: View line count and palette before drawing begins",
-              "100% On-Device Privacy: All image processing and stroke generation happens locally on your phone"
-            ],
-            "offers": {
-              "@type": "Offer",
-              "price": "0",
-              "priceCurrency": "USD",
-              "availability": "https://schema.org/InStock",
-              "url": "https://doodz-rust.vercel.app/Doodz.apk"
-            },
-            "author": {
-              "@id": "https://doodz-rust.vercel.app/#organization"
-            }
-          },
-          {
-            "@type": "Organization",
-            "@id": "https://doodz-rust.vercel.app/#organization",
-            "name": "ForVano",
-            "url": "https://forvano.com",
-            "email": "junaidpasha9986@gmail.com",
-            "telephone": "+917892689778",
-            "founder": {
-              "@type": "Person",
-              "name": "Junaid Pasha",
-              "email": "junaidpasha9986@gmail.com",
-              "telephone": "+917892689778"
-            },
-            "contactPoint": [
-              {
-                "@type": "ContactPoint",
-                "telephone": "+91-7892689778",
-                "email": "junaidpasha9986@gmail.com",
-                "contactType": "customer support",
-                "availableLanguage": ["English", "Hindi"]
-              }
-            ],
-            "sameAs": [
-              "https://wa.me/917892689778",
-              "https://forvano.com"
-            ]
-          },
-          {
-            "@type": "HowTo",
-            "name": "How to Automatically Draw Any Image on Instagram DMs Using Doodz",
-            "description": "Turn any photo into a hand-drawn Instagram chat doodle automatically on Android in 5 simple steps.",
-            "totalTime": "PT1M",
-            "tool": [
-              {
-                "@type": "HowToTool",
-                "name": "Doodz Android App (https://doodz-rust.vercel.app/)"
-              },
-              {
-                "@type": "HowToTool",
-                "name": "Instagram App for Android"
-              }
-            ],
-            "step": [
-              {
-                "@type": "HowToStep",
-                "position": 1,
-                "name": "Enable Accessibility Permission",
-                "text": "Turn on the Android Accessibility permission in Doodz so the app can perform drawing strokes on your screen."
-              },
-              {
-                "@type": "HowToStep",
-                "position": 2,
-                "name": "Send & Select Your Image",
-                "text": "Send the picture in an Instagram chat, then select the same image inside Doodz as your drawing reference."
-              },
-              {
-                "@type": "HowToStep",
-                "position": 3,
-                "name": "Choose Where to Draw",
-                "text": "Drag and resize the bounding box on your screenshot to define the exact area where the doodle will be drawn."
-              },
-              {
-                "@type": "HowToStep",
-                "position": 4,
-                "name": "Calibrate with 2 Dots (Hyper Doodle Only)",
-                "text": "Place Dot 1 on Instagram's colour picker and Dot 2 on the brush's middle-of-screen rest point."
-              },
-              {
-                "@type": "HowToStep",
-                "position": 5,
-                "name": "Press Start & Relax",
-                "text": "Tap Start and watch Doodz automatically select colours and draw every line live inside your Instagram chat."
-              }
-            ]
-          },
-          {
-            "@type": "FAQPage",
-            "mainEntity": [
-              {
-                "@type": "Question",
-                "name": "What is Doodz?",
-                "acceptedAnswer": {
-                  "@type": "Answer",
-                  "text": "Doodz is an Android app (available at https://doodz-rust.vercel.app/) that automatically draws your chosen image as a doodle inside Instagram DMs. You pick the picture and the area, and the app handles the taps, colours, and strokes for you."
-                }
-              },
-              {
-                "@type": "Question",
-                "name": "What is the difference between Standard and Hyper Doodle modes?",
-                "acceptedAnswer": {
-                  "@type": "Answer",
-                  "text": "Standard draws a clean single-colour doodle quickly with no colour setup. Hyper Doodle builds a detailed multicolour doodle using Instagram's colour palettes via a quick 2-dot screen calibration."
-                }
-              },
-              {
-                "@type": "Question",
-                "name": "Which images work best for Instagram auto-doodling?",
-                "acceptedAnswer": {
-                  "@type": "Answer",
-                  "text": "Clear, well-defined images with strong shapes and contrast turn out best, such as logos, portraits, anime art, and bold illustrations."
-                }
-              },
-              {
-                "@type": "Question",
-                "name": "Do my images leave my phone?",
-                "acceptedAnswer": {
-                  "@type": "Answer",
-                  "text": "No. All images and screenshots are analysed locally, and the drawing plan is created 100% on your Android device."
-                }
-              },
-              {
-                "@type": "Question",
-                "name": "Which permissions does Doodz need?",
-                "acceptedAnswer": {
-                  "@type": "Answer",
-                  "text": "Only the Android Accessibility permission, which lets the app perform the taps and swipes that draw the doodle for you."
-                }
-              },
-              {
-                "@type": "Question",
-                "name": "How can I contact the developer of Doodz for support or business inquiries?",
-                "acceptedAnswer": {
-                  "@type": "Answer",
-                  "text": "You can reach Junaid Pasha and the ForVano team directly via WhatsApp at +91 78926 89778 or by email at junaidpasha9986@gmail.com."
-                }
-              }
-            ]
-          }
-        ]
-      }
-    </script>
+<div class="marq r" aria-hidden="true"><div>Instagram Doodle <span>✦</span> Auto-draw <span>✦</span> Palette match <span>✦</span> Instagram Doodle <span>✦</span> Auto-draw <span>✦</span> Palette match <span>✦</span> Instagram Doodle <span>✦</span> Auto-draw <span>✦</span> Palette match <span>✦</span> </div></div>
 
-    <style>
-      :root {
-        --bg: #f7f2ff;
-        --fg: #3b2f55;
-        --mut: #6f6689;
-        --card: #fff;
-        --line: #e6dcf8;
-        --a: #8a6fd1;
-        --b: #f08fc0;
-        --c: #7fd4b8;
-        --g: #4aa88a;
-        --wa: #25d366;
-        --ph: #fff;
-        color-scheme: light;
-        box-sizing: border-box;
-        padding-top: env(safe-area-inset-top, 0px);
-        padding-bottom: env(safe-area-inset-bottom, 0px);
-      }
-      @media (prefers-color-scheme: dark) {
-        :root:not([data-theme="light"]) {
-          --bg: #15111f;
-          --fg: #f1ecfb;
-          --mut: #a79fc0;
-          --card: #1f1a2e;
-          --line: #332c49;
-          --ph: #1f1a2e;
-          color-scheme: dark;
-        }
-      }
-      :root[data-theme="dark"] {
-        --bg: #15111f;
-        --fg: #f1ecfb;
-        --mut: #a79fc0;
-        --card: #1f1a2e;
-        --line: #332c49;
-        --ph: #1f1a2e;
-        color-scheme: dark;
-      }
-      * {
-        box-sizing: border-box;
-        margin: 0;
-        -webkit-tap-highlight-color: transparent;
-      }
-      html {
-        scroll-behavior: smooth;
-        scroll-padding-top: 76px;
-        -webkit-text-size-adjust: 100%;
-      }
-      body {
-        background: var(--bg);
-        color: var(--fg);
-        font-family:
-          Inter,
-          system-ui,
-          -apple-system,
-          "Segoe UI",
-          sans-serif;
-        line-height: 1.6;
-        font-size: 16px;
-        overflow-x: hidden;
-        padding-bottom: 84px;
-      }
-      a {
-        color: inherit;
-        text-decoration: none;
-      }
-      .wrap {
-        max-width: 1040px;
-        margin: auto;
-        padding: 0 20px;
-        position: relative;
-      }
-      #bar {
-        position: fixed;
-        top: 0;
-        left: 0;
-        height: 3px;
-        width: 0;
-        background: linear-gradient(90deg, var(--a), var(--b), var(--c));
-        z-index: 30;
-      }
-      nav {
-        position: sticky;
-        top: 0;
-        z-index: 20;
-        backdrop-filter: blur(14px);
-        -webkit-backdrop-filter: blur(14px);
-        background: color-mix(in srgb, var(--bg) 82%, transparent);
-        border-bottom: 1px solid var(--line);
-      }
-      nav .wrap {
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        height: 58px;
-      }
-      .logo {
-        font-weight: 800;
-        letter-spacing: -0.02em;
-        display: flex;
-        gap: 8px;
-        align-items: center;
-        font-size: 19px;
-      }
-      .links {
-        display: flex;
-        gap: 24px;
-        font-size: 14px;
-        color: var(--mut);
-      }
-      .links a:hover {
-        color: var(--fg);
-      }
-      @media (max-width: 760px) {
-        .links {
-          display: none;
-        }
-      }
-      .btn {
-        display: inline-flex;
-        gap: 8px;
-        align-items: center;
-        justify-content: center;
-        min-height: 48px;
-        padding: 0 26px;
-        border-radius: 99px;
-        font-weight: 700;
-        font-size: 15px;
-        background: var(--fg);
-        color: var(--bg);
-        border: 1px solid var(--fg);
-        cursor: pointer;
-        transition: transform 0.2s;
-        font-family: inherit;
-      }
-      .btn:active {
-        transform: scale(0.97);
-      }
-      .btn.o {
-        background: transparent;
-        color: var(--fg);
-        border-color: var(--line);
-      }
-      .btn.wa-btn {
-        background: var(--wa);
-        color: #fff;
-        border-color: var(--wa);
-      }
-      nav .btn {
-        min-height: 40px;
-        padding: 0 18px;
-        font-size: 14px;
-      }
-      .pulse {
-        animation: pl 2.4s infinite;
-      }
-      @keyframes pl {
-        0% {
-          box-shadow: 0 0 0 0 #f08fc088;
-        }
-        70% {
-          box-shadow: 0 0 0 14px #f08fc000;
-        }
-        100% {
-          box-shadow: 0 0 0 0 #f08fc000;
-        }
-      }
-      .blob {
-        position: absolute;
-        border-radius: 50%;
-        filter: blur(60px);
-        opacity: 0.3;
-        pointer-events: none;
-        z-index: -1;
-        animation: fl 12s ease-in-out infinite;
-      }
-      @keyframes fl {
-        50% {
-          transform: translate(30px, -40px) scale(1.12);
-        }
-      }
-      .grad {
-        background: linear-gradient(90deg, var(--a), var(--b), var(--c), var(--a));
-        background-size: 300%;
-        -webkit-background-clip: text;
-        background-clip: text;
-        color: transparent;
-        font-style: normal;
-        animation: gs 6s linear infinite;
-      }
-      @keyframes gs {
-        to {
-          background-position: 300%;
-        }
-      }
-      .hero {
-        padding: 44px 0 20px;
-        text-align: center;
-        position: relative;
-        overflow: hidden;
-      }
-      .mascot {
-        display: block;
-        margin: 0 auto 14px;
-        width: 110px;
-        animation: bob 4s ease-in-out infinite;
-        filter: drop-shadow(0 12px 20px #8a6fd133);
-      }
-      @keyframes bob {
-        50% {
-          transform: translateY(-8px);
-        }
-      }
-      .tag {
-        display: inline-block;
-        font-size: 11px;
-        letter-spacing: 0.14em;
-        text-transform: uppercase;
-        color: var(--mut);
-        border: 1px solid var(--line);
-        padding: 6px 14px;
-        border-radius: 99px;
-        margin-bottom: 20px;
-      }
-      .tag b {
-        color: var(--g);
-      }
-      h1 {
-        font-size: clamp(44px, 12vw, 92px);
-        line-height: 1;
-        letter-spacing: -0.045em;
-        font-weight: 800;
-      }
-      .hero > .wrap > p {
-        max-width: 580px;
-        margin: 20px auto 28px;
-        color: var(--mut);
-        font-size: clamp(16px, 4.4vw, 19px);
-      }
-      .cta {
-        display: flex;
-        gap: 12px;
-        justify-content: center;
-        flex-wrap: wrap;
-      }
-      .cta .btn {
-        flex: 1 1 200px;
-        max-width: 260px;
-      }
-      .stage {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        gap: 28px;
-        align-items: center;
-        margin-top: 44px;
-      }
-      @media (max-width: 760px) {
-        .stage {
-          grid-template-columns: 1fr;
-          margin-top: 34px;
-        }
-      }
-      .phone {
-        width: min(240px, 64vw);
-        aspect-ratio: 1/2;
-        margin: auto;
-        border: 7px solid #1d1d27;
-        border-radius: 36px;
-        background: var(--ph);
-        position: relative;
-        overflow: hidden;
-        box-shadow: 0 30px 70px #8a6fd140;
-      }
-      .phone:before {
-        content: "";
-        position: absolute;
-        top: 7px;
-        left: 50%;
-        width: 64px;
-        height: 16px;
-        margin-left: -32px;
-        background: #1d1d27;
-        border-radius: 12px;
-        z-index: 2;
-      }
-      .phone .top {
-        height: 50px;
-        background: #f3f3f6;
-        display: flex;
-        align-items: flex-end;
-        padding: 0 14px 7px;
-        font: 600 12px system-ui;
-        color: #222;
-      }
-      .phone svg {
-        width: 100%;
-        height: calc(100% - 50px);
-        display: block;
-      }
-      .draw {
-        fill: none;
-        stroke-width: 5;
-        stroke-linecap: round;
-        stroke-linejoin: round;
-        stroke-dasharray: 1;
-        stroke-dashoffset: 1;
-        animation: d 10s ease-in-out infinite;
-      }
-      .draw:nth-of-type(2) {
-        animation-delay: 1s;
-      }
-      .draw:nth-of-type(3) {
-        animation-delay: 2s;
-      }
-      .draw:nth-of-type(4) {
-        animation-delay: 3s;
-      }
-      .draw:nth-of-type(5) {
-        animation-delay: 4s;
-      }
-      .draw:nth-of-type(6) {
-        animation-delay: 5s;
-      }
-      @keyframes d {
-        0% {
-          stroke-dashoffset: 1;
-        }
-        40%,
-        88% {
-          stroke-dashoffset: 0;
-        }
-        100% {
-          stroke-dashoffset: 1;
-        }
-      }
-      .chat {
-        display: flex;
-        flex-direction: column;
-        gap: 10px;
-        text-align: left;
-        max-width: 380px;
-        margin: auto;
-        width: 100%;
-      }
-      .msg {
-        max-width: 86%;
-        padding: 11px 15px;
-        border-radius: 20px;
-        font-size: 15px;
-        background: var(--card);
-        border: 1px solid var(--line);
-        opacity: 0;
-        transform: translateY(14px) scale(0.96);
-      }
-      .msg.me {
-        align-self: flex-end;
-        background: linear-gradient(135deg, var(--a), var(--b));
-        color: #fff;
-        border: 0;
-      }
-      .msg small {
-        display: block;
-        color: var(--mut);
-        font-size: 11px;
-      }
-      .msg.me small {
-        color: #fffb;
-      }
-      .chat.in .msg {
-        animation: pop 0.5s forwards;
-      }
-      .chat.in .msg:nth-child(2) {
-        animation-delay: 1s;
-      }
-      .chat.in .msg:nth-child(3) {
-        animation-delay: 2s;
-      }
-      .chat.in .msg:nth-child(4) {
-        animation-delay: 3s;
-      }
-      @keyframes pop {
-        to {
-          opacity: 1;
-          transform: none;
-        }
-      }
-      section {
-        padding: 64px 0;
-      }
-      @media (max-width: 600px) {
-        section {
-          padding: 48px 0;
-        }
-      }
-      .eye {
-        font-size: 12px;
-        letter-spacing: 0.16em;
-        text-transform: uppercase;
-        color: var(--a);
-        margin-bottom: 10px;
-        font-weight: 700;
-      }
-      h2 {
-        font-size: clamp(30px, 8vw, 56px);
-        letter-spacing: -0.04em;
-        line-height: 1.05;
-        margin-bottom: 14px;
-        font-weight: 800;
-      }
-      .sub {
-        color: var(--mut);
-        max-width: 580px;
-        font-size: clamp(16px, 4.2vw, 18px);
-        margin-bottom: 32px;
-      }
-      .grid {
-        display: grid;
-        gap: 14px;
-        grid-template-columns: repeat(auto-fit, minmax(min(100%, 250px), 1fr));
-      }
-      .card,
-      .mode {
-        background: var(--card);
-        border: 1px solid var(--line);
-        border-radius: 22px;
-        padding: 26px;
-        box-shadow: 0 8px 30px #8a6fd114;
-        position: relative;
-        overflow: hidden;
-      }
-      @media (hover: hover) {
-        .card,
-        .mode {
-          transition:
-            transform 0.25s,
-            border-color 0.25s;
-        }
-        .card:hover,
-        .mode:hover {
-          transform: translateY(-6px);
-          border-color: var(--a);
-        }
-      }
-      .card .n {
-        font-size: 28px;
-        display: block;
-        margin-bottom: 14px;
-      }
-      .card h3 {
-        font-size: 20px;
-        letter-spacing: -0.02em;
-        margin-bottom: 6px;
-      }
-      .card p {
-        color: var(--mut);
-        font-size: 15px;
-      }
-      .mode.hot {
-        border-color: var(--a);
-        background: linear-gradient(160deg, #f08fc022, var(--card) 60%);
-      }
-      .lv {
-        font-size: 12px;
-        letter-spacing: 0.14em;
-        text-transform: uppercase;
-        color: var(--a);
-        font-weight: 700;
-      }
-      .mode h3 {
-        font-size: 28px;
-        letter-spacing: -0.03em;
-        margin: 10px 0 6px;
-      }
-      .mode p {
-        color: var(--mut);
-        font-size: 15px;
-        margin-bottom: 16px;
-      }
-      .badge {
-        position: absolute;
-        top: 18px;
-        right: 18px;
-        background: var(--g);
-        color: #fff;
-        font-size: 10px;
-        font-weight: 700;
-        padding: 5px 11px;
-        border-radius: 99px;
-        letter-spacing: 0.08em;
-      }
-      .hot .badge {
-        background: var(--a);
-      }
-      .ml {
-        list-style: none;
-        padding: 0;
-        margin: 0 0 18px;
-        counter-reset: s;
-      }
-      .ml li {
-        counter-increment: s;
-        display: flex;
-        gap: 12px;
-        align-items: center;
-        padding: 8px 0;
-        font-weight: 600;
-        font-size: 15px;
-      }
-      .ml li:before {
-        content: counter(s);
-        width: 26px;
-        height: 26px;
-        flex: none;
-        border-radius: 50%;
-        background: var(--a);
-        color: #fff;
-        display: grid;
-        place-items: center;
-        font-size: 13px;
-      }
-      .chips span {
-        display: inline-block;
-        margin: 0 6px 6px 0;
-        padding: 6px 12px;
-        border-radius: 99px;
-        background: var(--bg);
-        border: 1px solid var(--line);
-        font-size: 13px;
-        font-weight: 600;
-      }
-      .spec {
-        height: 44px;
-        border-radius: 99px;
-        background: linear-gradient(90deg, #f00, #ff0, #0f0, #0ff, #00f, #f0f, #f00);
-        background-size: 200%;
-        animation: gs 5s linear infinite;
-        box-shadow: 0 0 50px #8a6fd150;
-        margin: 0 0 26px;
-      }
-      .steps {
-        position: relative;
-        padding-left: 48px;
-      }
-      .steps:before {
-        content: "";
-        position: absolute;
-        left: 15px;
-        top: 0;
-        bottom: 0;
-        width: 3px;
-        background: var(--line);
-        border-radius: 3px;
-      }
-      .steps > i {
-        position: absolute;
-        left: 15px;
-        top: 0;
-        width: 3px;
-        border-radius: 3px;
-        background: linear-gradient(var(--a), var(--c));
-        height: var(--p, 0%);
-      }
-      .step {
-        margin-bottom: 34px;
-        position: relative;
-      }
-      .step:last-child {
-        margin-bottom: 0;
-      }
-      .step:before {
-        content: attr(data-n);
-        position: absolute;
-        left: -48px;
-        top: 0;
-        width: 34px;
-        height: 34px;
-        border-radius: 50%;
-        background: var(--bg);
-        border: 2px solid var(--a);
-        display: grid;
-        place-items: center;
-        font-weight: 800;
-        font-size: 13px;
-      }
-      .step h3 {
-        font-size: clamp(20px, 5.4vw, 25px);
-        letter-spacing: -0.03em;
-        margin-bottom: 4px;
-      }
-      .step p {
-        color: var(--mut);
-        max-width: 540px;
-        font-size: 15px;
-      }
-      .step em {
-        font-style: normal;
-        font-size: 11px;
-        letter-spacing: 0.1em;
-        text-transform: uppercase;
-        color: var(--a);
-        font-weight: 700;
-        display: block;
-      }
-      details {
-        border-bottom: 1px solid var(--line);
-      }
-      summary {
-        cursor: pointer;
-        font-weight: 600;
-        font-size: 17px;
-        list-style: none;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        gap: 16px;
-        padding: 20px 0;
-        min-height: 60px;
-      }
-      summary::-webkit-details-marker {
-        display: none;
-      }
-      summary:after {
-        content: "+";
-        color: var(--a);
-        font-size: 26px;
-        line-height: 1;
-        transition: transform 0.3s;
-        flex: none;
-      }
-      details[open] summary:after {
-        transform: rotate(45deg);
-      }
-      details p {
-        color: var(--mut);
-        padding: 0 0 20px;
-        max-width: 700px;
-        font-size: 15.5px;
-      }
-      details p + p {
-        margin-top: -8px;
-      }
-      .final {
-        text-align: center;
-        background: var(--card);
-        border: 1px solid var(--line);
-        border-radius: 30px;
-        padding: 60px 22px;
-        margin: 20px 0 40px;
-        position: relative;
-        overflow: hidden;
-      }
-      .final .sub {
-        margin: 0 auto 26px;
-      }
-      .contact-box {
-        background: var(--card);
-        border: 1px solid var(--line);
-        border-radius: 26px;
-        padding: 36px 26px;
-        margin: 0 0 40px;
-        display: flex;
-        flex-wrap: wrap;
-        align-items: center;
-        justify-content: space-between;
-        gap: 24px;
-        box-shadow: 0 8px 30px #8a6fd114;
-      }
-      .contact-box h3 {
-        font-size: clamp(22px, 5vw, 28px);
-        letter-spacing: -0.03em;
-        margin-bottom: 6px;
-      }
-      .contact-box p {
-        color: var(--mut);
-        font-size: 15px;
-        max-width: 480px;
-      }
-      .contact-actions {
-        display: flex;
-        flex-wrap: wrap;
-        gap: 12px;
-      }
-      footer {
-        border-top: 1px solid var(--line);
-        padding: 32px 0;
-        color: var(--mut);
-        font-size: 14px;
-      }
-      footer .wrap {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        flex-wrap: wrap;
-        gap: 14px;
-      }
-      footer a {
-        color: var(--a);
-        font-weight: 700;
-      }
-      .footer-links {
-        display: flex;
-        gap: 18px;
-        flex-wrap: wrap;
-        align-items: center;
-      }
-      .dock {
-        position: fixed;
-        left: 0;
-        right: 0;
-        bottom: 0;
-        z-index: 25;
-        padding: 10px 16px calc(10px + env(safe-area-inset-bottom, 0px));
-        background: color-mix(in srgb, var(--bg) 88%, transparent);
-        backdrop-filter: blur(14px);
-        -webkit-backdrop-filter: blur(14px);
-        border-top: 1px solid var(--line);
-        display: none;
-        transform: translateY(110%);
-        transition: transform 0.35s;
-      }
-      .dock.show {
-        transform: none;
-      }
-      .dock .btn {
-        width: 100%;
-      }
-      /* Floating WhatsApp Button */
-      .wa-float {
-        position: fixed;
-        right: 20px;
-        bottom: 22px;
-        z-index: 28;
-        width: 56px;
-        height: 56px;
-        border-radius: 50%;
-        background: var(--wa);
-        color: #fff;
-        display: grid;
-        place-items: center;
-        box-shadow: 0 10px 26px rgba(37, 211, 102, 0.42);
-        transition:
-          transform 0.25s,
-          bottom 0.35s;
-      }
-      .wa-float:hover {
-        transform: scale(1.08);
-      }
-      .wa-float svg {
-        width: 30px;
-        height: 30px;
-        fill: currentColor;
-      }
-      @media (max-width: 760px) {
-        .dock {
-          display: block;
-        }
-        .wa-float {
-          bottom: 82px;
-          right: 16px;
-          width: 52px;
-          height: 52px;
-        }
-      }
-      #glow {
-        position: fixed;
-        width: 420px;
-        height: 420px;
-        border-radius: 50%;
-        background: radial-gradient(var(--c), transparent 65%);
-        opacity: 0.18;
-        pointer-events: none;
-        z-index: -1;
-        transform: translate(-50%, -50%);
-        left: 50%;
-        top: 30%;
-        transition:
-          left 0.4s,
-          top 0.4s;
-      }
-      .orbit {
-        position: absolute;
-        left: 50%;
-        top: 300px;
-        width: 0;
-        height: 0;
-        z-index: -1;
-      }
-      .orbit i {
-        position: absolute;
-        width: 12px;
-        height: 12px;
-        border-radius: 50%;
-        margin: -6px;
-        animation: ob 9s linear infinite;
-      }
-      @keyframes ob {
-        from {
-          transform: rotate(0) translateX(var(--r));
-        }
-        to {
-          transform: rotate(360deg) translateX(var(--r));
-        }
-      }
-      .fh {
-        position: absolute;
-        top: 230px;
-        font-size: 22px;
-        color: var(--b);
-        opacity: 0;
-        animation: up 6s infinite;
-      }
-      @keyframes up {
-        0% {
-          opacity: 0;
-          transform: translateY(0);
-        }
-        20% {
-          opacity: 0.8;
-        }
-        100% {
-          opacity: 0;
-          transform: translateY(-200px);
-        }
-      }
-      .marq {
-        border-block: 1px solid var(--line);
-        overflow: hidden;
-        padding: 16px 0;
-        margin: 30px 0;
-        white-space: nowrap;
-      }
-      .marq div {
-        display: inline-block;
-        animation: m 26s linear infinite;
-        font-size: clamp(18px, 5vw, 24px);
-        font-weight: 800;
-        letter-spacing: -0.02em;
-      }
-      .marq.r div {
-        animation-direction: reverse;
-        color: transparent;
-        -webkit-text-stroke: 1px var(--mut);
-      }
-      .marq span {
-        color: var(--a);
-        margin: 0 22px;
-        -webkit-text-stroke: 0;
-      }
-      @keyframes m {
-        to {
-          transform: translateX(-50%);
-        }
-      }
-      #ld {
-        position: fixed;
-        inset: 0;
-        z-index: 100;
-        background: var(--bg);
-        display: grid;
-        place-items: center;
-        transition:
-          opacity 0.6s,
-          visibility 0.6s;
-      }
-      #ld.out {
-        opacity: 0;
-        visibility: hidden;
-      }
-      #ld .li {
-        text-align: center;
-      }
-      #ld svg.cat {
-        width: 150px;
-        display: block;
-        margin: auto;
-        animation: bob 2.4s ease-in-out infinite;
-      }
-      #ld h3 {
-        font-size: 32px;
-        font-weight: 800;
-        letter-spacing: -0.03em;
-        margin-top: 8px;
-      }
-      #ld p {
-        font-size: 13px;
-        color: var(--mut);
-        margin-top: 6px;
-      }
-      #ld .sq {
-        width: 180px;
-        height: 22px;
-        display: block;
-        margin: 12px auto 0;
-      }
-      #ld .sq path {
-        fill: none;
-        stroke: var(--b);
-        stroke-width: 5;
-        stroke-linecap: round;
-        stroke-dasharray: 1;
-        stroke-dashoffset: 1;
-        animation: sqd 1.8s ease-in-out infinite;
-      }
-      @keyframes sqd {
-        0% {
-          stroke-dashoffset: 1;
-        }
-        65%,
-        100% {
-          stroke-dashoffset: 0;
-        }
-      }
-      .meter {
-        height: 8px;
-        border-radius: 9px;
-        background: var(--line);
-        overflow: hidden;
-      }
-      .meter b {
-        display: block;
-        height: 100%;
-        width: 0;
-        border-radius: 9px;
-        background: linear-gradient(90deg, var(--a), var(--b), var(--c));
-        transition: width 1.6s cubic-bezier(0.2, 0.8, 0.2, 1);
-      }
-      .meter.in b {
-        width: var(--w);
-      }
-      .ring {
-        width: 110px;
-        height: 110px;
-        border-radius: 50%;
-        background: conic-gradient(var(--a) calc(var(--p2, 0) * 3.6deg), var(--line) 0);
-        display: grid;
-        place-items: center;
-        margin: 0 0 12px;
-      }
-      .ring span {
-        width: 88px;
-        height: 88px;
-        border-radius: 50%;
-        background: var(--card);
-        display: grid;
-        place-items: center;
-        font-weight: 800;
-        font-size: 26px;
-      }
-      .mode .meter {
-        margin-top: 6px;
-      }
-      .mode .rn {
-        margin: -2px 0 12px;
-        font-size: 13px;
-      }
-      .sd {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        gap: 40px;
-        align-items: center;
-      }
-      @media (max-width: 800px) {
-        .sd {
-          grid-template-columns: 1fr;
-        }
-      }
-      .st {
-        list-style: none;
-        padding: 0;
-        margin: 0 0 18px;
-      }
-      .st li {
-        display: flex;
-        gap: 14px;
-        align-items: center;
-        padding: 14px 18px;
-        margin-bottom: 10px;
-        background: var(--card);
-        border: 1px solid var(--line);
-        border-radius: 16px;
-        font-weight: 600;
-        font-size: 16px;
-        opacity: 0.4;
-        animation: var(--an) 8s infinite;
-      }
-      .st b {
-        width: 30px;
-        height: 30px;
-        border-radius: 50%;
-        background: var(--a);
-        color: #fff;
-        display: grid;
-        place-items: center;
-        font-size: 14px;
-        flex: none;
-      }
-      .s1 {
-        --an: h1;
-      }
-      .s2 {
-        --an: h2;
-      }
-      .s3 {
-        --an: h3;
-      }
-      .s4 {
-        --an: h4;
-      }
-      @keyframes h1 {
-        0%,
-        12% {
-          opacity: 1;
-          border-color: var(--a);
-        }
-        16%,
-        100% {
-          opacity: 0.4;
-        }
-      }
-      @keyframes h2 {
-        0%,
-        12% {
-          opacity: 0.4;
-        }
-        16%,
-        28% {
-          opacity: 1;
-          border-color: var(--a);
-        }
-        32%,
-        100% {
-          opacity: 0.4;
-        }
-      }
-      @keyframes h3 {
-        0%,
-        28% {
-          opacity: 0.4;
-        }
-        32%,
-        46% {
-          opacity: 1;
-          border-color: var(--a);
-        }
-        50%,
-        100% {
-          opacity: 0.4;
-        }
-      }
-      @keyframes h4 {
-        0%,
-        46% {
-          opacity: 0.4;
-        }
-        50%,
-        92% {
-          opacity: 1;
-          border-color: var(--a);
-        }
-        100% {
-          opacity: 0.4;
-        }
-      }
-      .up {
-        opacity: 0;
-        animation: upa 8s infinite;
-      }
-      @keyframes upa {
-        0% {
-          opacity: 0;
-          transform: translateY(24px);
-        }
-        6%,
-        13% {
-          opacity: 1;
-          transform: none;
-        }
-        17%,
-        100% {
-          opacity: 0;
-        }
-      }
-      .sdemo {
-        background: var(--card);
-        border: 1px solid var(--line);
-        border-radius: 28px;
-        padding: 16px;
-        box-shadow: 0 20px 60px #8a6fd122;
-        max-width: 380px;
-        margin: auto;
-        width: 100%;
-      }
-      .sdemo svg {
-        width: 100%;
-        display: block;
-        background: #faf7ff;
-        border-radius: 18px;
-      }
-      .area {
-        fill: #f08fc014;
-        stroke: var(--b);
-        stroke-width: 3;
-        stroke-dasharray: 8 6;
-        opacity: 0;
-        animation: ar 8s infinite;
-      }
-      @keyframes ar {
-        0%,
-        14% {
-          opacity: 0;
-        }
-        19%,
-        92% {
-          opacity: 1;
-        }
-        100% {
-          opacity: 0;
-        }
-      }
-      .ln {
-        fill: none;
-        stroke: #8a6fd1;
-        stroke-width: 7;
-        stroke-linecap: round;
-        stroke-linejoin: round;
-        stroke-dasharray: 1;
-        stroke-dashoffset: 1;
-        animation: dl 8s infinite;
-      }
-      @keyframes dl {
-        0%,
-        54% {
-          stroke-dashoffset: 1;
-        }
-        90%,
-        96% {
-          stroke-dashoffset: 0;
-        }
-        100% {
-          stroke-dashoffset: 1;
-        }
-      }
-      .bar {
-        display: flex;
-        align-items: center;
-        gap: 14px;
-        margin-top: 16px;
-      }
-      .bar .br {
-        border-radius: 50%;
-        background: #8a6fd1;
-        opacity: 0.6;
-      }
-      .bar .sel {
-        opacity: 1;
-        animation: bs 8s infinite;
-      }
-      @keyframes bs {
-        0%,
-        30% {
-          box-shadow: none;
-        }
-        34%,
-        92% {
-          box-shadow: 0 0 0 4px var(--b);
-        }
-        100% {
-          box-shadow: none;
-        }
-      }
-      .go {
-        margin-left: auto;
-        background: var(--a);
-        color: #fff;
-        padding: 10px 20px;
-        border-radius: 99px;
-        font-weight: 700;
-        font-size: 14px;
-        animation: gp 8s infinite;
-      }
-      @keyframes gp {
-        0%,
-        48% {
-          transform: scale(1);
-        }
-        51% {
-          transform: scale(0.9);
-          background: var(--b);
-        }
-        56%,
-        100% {
-          transform: scale(1);
-        }
-      }
-      .ba {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        gap: 14px;
-      }
-      .ba div {
-        aspect-ratio: 1;
-        border-radius: 22px;
-        border: 1px solid var(--line);
-        background: var(--card);
-        display: grid;
-        place-items: center;
-        font-size: 13px;
-        color: var(--mut);
-        position: relative;
-        overflow: hidden;
-        padding: 8px;
-      }
-      .ba svg {
-        width: 80%;
-      }
-      .stats {
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
-        gap: 16px;
-        text-align: center;
-      }
-      .stats b {
-        display: block;
-        font-size: clamp(40px, 10vw, 68px);
-        letter-spacing: -0.04em;
-      }
-      .stats span {
-        color: var(--mut);
-        font-size: 14px;
-      }
-      .soon {
-        display: flex;
-        gap: 10px;
-        flex-wrap: wrap;
-      }
-      .soon span {
-        padding: 10px 18px;
-        border: 1px dashed var(--line);
-        border-radius: 99px;
-        color: var(--mut);
-        font-size: 14px;
-      }
-      .soon span.live {
-        border: 1px solid var(--g);
-        color: var(--g);
-      }
-      .tut {
-        display: grid;
-        grid-template-columns: 1fr 280px;
-        gap: 40px;
-        align-items: center;
-      }
-      @media (max-width: 800px) {
-        .tut {
-          grid-template-columns: 1fr;
-          gap: 28px;
-        }
-        .tut .tp {
-          order: -1;
-        }
-      }
-      .tl {
-        display: flex;
-        flex-direction: column;
-        gap: 10px;
-      }
-      .ti {
-        display: flex;
-        gap: 14px;
-        padding: 16px 18px;
-        border: 1px solid var(--line);
-        border-radius: 18px;
-        cursor: pointer;
-        background: var(--card);
-        opacity: 0.55;
-        transition: all 0.4s;
-        position: relative;
-        overflow: hidden;
-      }
-      .ti.on {
-        opacity: 1;
-        border-color: var(--a);
-        transform: translateX(6px);
-      }
-      .ti b {
-        width: 32px;
-        height: 32px;
-        flex: none;
-        border-radius: 50%;
-        display: grid;
-        place-items: center;
-        background: var(--line);
-        font-size: 14px;
-      }
-      .ti.on b {
-        background: var(--a);
-        color: #fff;
-      }
-      .ti h4 {
-        font-size: 17px;
-      }
-      .ti p {
-        font-size: 14px;
-        color: var(--mut);
-      }
-      .ti i {
-        position: absolute;
-        left: 0;
-        bottom: 0;
-        height: 3px;
-        width: 0;
-        background: linear-gradient(90deg, var(--a), var(--c));
-      }
-      .ti.on i {
-        animation: fillb 5s linear forwards;
-      }
-      @keyframes fillb {
-        to {
-          width: 100%;
-        }
-      }
-      .tp {
-        width: 260px;
-        height: 520px;
-        margin: auto;
-        border: 8px solid #1d1d27;
-        border-radius: 38px;
-        background: #f6f6f9;
-        position: relative;
-        overflow: hidden;
-        box-shadow: 0 30px 80px #f08fc030;
-        color: #222;
-        font-family: system-ui;
-      }
-      .sc {
-        position: absolute;
-        inset: 0;
-        padding: 46px 16px 16px;
-        opacity: 0;
-        transform: scale(0.96);
-        transition: all 0.5s;
-        pointer-events: none;
-      }
-      .sc.on {
-        opacity: 1;
-        transform: none;
-      }
-      .sc h5 {
-        font-size: 15px;
-        margin-bottom: 14px;
-      }
-      .sw {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        background: #fff;
-        border-radius: 14px;
-        padding: 13px;
-        margin-bottom: 10px;
-        font-size: 13px;
-        box-shadow: 0 2px 8px #0001;
-      }
-      .sw s {
-        width: 38px;
-        height: 22px;
-        border-radius: 99px;
-        background: #ccc;
-        position: relative;
-        text-decoration: none;
-      }
-      .sw s:after {
-        content: "";
-        position: absolute;
-        left: 2px;
-        top: 2px;
-        width: 18px;
-        height: 18px;
-        border-radius: 50%;
-        background: #fff;
-      }
-      .sc.on .sw s {
-        animation: tg 0.5s 0.1s forwards;
-      }
-      .sc.on .sw s:after {
-        animation: tk 0.5s 0.1s forwards;
-      }
-      @keyframes tg {
-        to {
-          background: #5bbf9c;
-        }
-      }
-      @keyframes tk {
-        to {
-          left: 18px;
-        }
-      }
-      .pic {
-        width: 90px;
-        height: 64px;
-        border-radius: 12px;
-        background: linear-gradient(135deg, #f08fc0, #ffd36e, #8a6fd1);
-        margin: 20px auto;
-      }
-      .sc.on .pic.fly {
-        animation: fly 3s ease-in-out infinite;
-      }
-      @keyframes fly {
-        0% {
-          transform: translateY(0);
-        }
-        60%,
-        100% {
-          transform: translateY(210px) scale(0.7);
-        }
-      }
-      .bub {
-        position: absolute;
-        right: 16px;
-        bottom: 60px;
-        width: 110px;
-        height: 76px;
-        border-radius: 18px;
-        background: #e8e8ef;
-        display: grid;
-        place-items: center;
-        font-size: 11px;
-        color: #777;
-      }
-      .shot {
-        height: 300px;
-        border-radius: 14px;
-        background: #fff;
-        position: relative;
-        box-shadow: 0 2px 8px #0001;
-      }
-      .box {
-        position: absolute;
-        border: 3px dashed #f08fc0;
-        border-radius: 8px;
-        background: #f08fc018;
-        left: 30px;
-        top: 40px;
-        width: 70px;
-        height: 60px;
-      }
-      .sc.on .box {
-        animation: rs 3.5s ease-in-out infinite;
-      }
-      @keyframes rs {
-        0% {
-          left: 30px;
-          top: 40px;
-          width: 70px;
-          height: 60px;
-        }
-        60%,
-        100% {
-          left: 20px;
-          top: 110px;
-          width: 170px;
-          height: 130px;
-        }
-      }
-      .dsc svg {
-        width: 100%;
-        height: 300px;
-        background: #fff;
-        border-radius: 14px;
-      }
-      .dsc path {
-        fill: none;
-        stroke-width: 5;
-        stroke-linecap: round;
-        stroke-dasharray: 1;
-        stroke-dashoffset: 1;
-      }
-      .sc.on .dsc path,
-      .dsc.on path {
-        animation: d 5s ease-in-out infinite;
-      }
-      .dsc path:nth-child(2) {
-        animation-delay: 0.7s !important;
-      }
-      .dsc path:nth-child(3) {
-        animation-delay: 1.4s !important;
-      }
-      .fing {
-        position: absolute;
-        font-size: 30px;
-        left: 60px;
-        top: 200px;
-        opacity: 0;
-      }
-      .sc.on .fing {
-        animation: fg 5s ease-in-out infinite;
-      }
-      @keyframes fg {
-        0% {
-          opacity: 1;
-          left: 60px;
-          top: 200px;
-        }
-        30% {
-          left: 150px;
-          top: 260px;
-        }
-        60% {
-          left: 90px;
-          top: 320px;
-        }
-        100% {
-          opacity: 1;
-          left: 180px;
-          top: 240px;
-        }
-      }
-      .pill {
-        display: inline-block;
-        margin-top: 14px;
-        background: #f08fc0;
-        color: #fff;
-        border-radius: 99px;
-        padding: 9px 20px;
-        font-size: 13px;
-        font-weight: 700;
-      }
-      .cal {
-        height: 300px;
-        background: #fff;
-        border-radius: 14px;
-        position: relative;
-        box-shadow: 0 2px 8px #0001;
-      }
-      .pk {
-        position: absolute;
-        left: 30px;
-        top: 230px;
-        width: 44px;
-        height: 44px;
-        border-radius: 50%;
-        background: conic-gradient(#f00, #ff0, #0f0, #0ff, #00f, #f0f, #f00);
-      }
-      .rest {
-        position: absolute;
-        left: 91px;
-        top: 135px;
-        width: 30px;
-        height: 30px;
-        border-radius: 50%;
-        border: 3px solid #222;
-        background: #f08fc0;
-        opacity: 0;
-      }
-      .strip {
-        position: absolute;
-        left: 150px;
-        top: 60px;
-        width: 24px;
-        height: 190px;
-        border-radius: 12px;
-        background: linear-gradient(#f00, #ff0, #0f0, #0ff, #00f, #f0f);
-        opacity: 0;
-      }
-      .mk {
-        position: absolute;
-        width: 26px;
-        height: 26px;
-        border-radius: 50%;
-        background: #f08fc0;
-        color: #fff;
-        font: 700 13px/26px system-ui;
-        text-align: center;
-        opacity: 0;
-        box-shadow: 0 3px 10px #f08fc080;
-      }
-      .m1 {
-        left: 39px;
-        top: 239px;
-      }
-      .m2 {
-        left: 93px;
-        top: 137px;
-      }
-      .cap {
-        position: absolute;
-        left: 16px;
-        right: 16px;
-        margin-top: 12px;
-        font-size: 12px;
-        color: #444;
-        text-align: center;
-        opacity: 0;
-      }
-      .sc.on .pk {
-        animation: pks 5s infinite;
-      }
-      .sc.on .strip,
-      .sc.on .rest {
-        animation: sts 5s infinite;
-      }
-      .sc.on .m1 {
-        animation: mk1 5s infinite;
-      }
-      .sc.on .m2 {
-        animation: mk2 5s infinite;
-      }
-      .sc.on .c1 {
-        animation: cp1 5s infinite;
-      }
-      .sc.on .c2 {
-        animation: cp2 5s infinite;
-      }
-      @keyframes pks {
-        0%,
-        42% {
-          box-shadow: none;
-        }
-        48%,
-        88% {
-          box-shadow: 0 0 0 4px #f08fc0;
-        }
-        94%,
-        100% {
-          box-shadow: none;
-        }
-      }
-      @keyframes sts {
-        0%,
-        40% {
-          opacity: 0;
-        }
-        48%,
-        82% {
-          opacity: 1;
-        }
-        92%,
-        100% {
-          opacity: 0;
-        }
-      }
-      @keyframes mk1 {
-        0% {
-          opacity: 0;
-          transform: translateY(-24px);
-        }
-        12%,
-        94% {
-          opacity: 1;
-          transform: none;
-        }
-        100% {
-          opacity: 0;
-        }
-      }
-      @keyframes mk2 {
-        0%,
-        58% {
-          opacity: 0;
-          transform: translateY(-24px);
-        }
-        68%,
-        94% {
-          opacity: 1;
-          transform: none;
-        }
-        100% {
-          opacity: 0;
-        }
-      }
-      @keyframes cp1 {
-        0%,
-        42% {
-          opacity: 1;
-        }
-        50%,
-        100% {
-          opacity: 0;
-        }
-      }
-      @keyframes cp2 {
-        0%,
-        46% {
-          opacity: 0;
-        }
-        54%,
-        94% {
-          opacity: 1;
-        }
-        100% {
-          opacity: 0;
-        }
-      }
-      .rv {
-        opacity: 0;
-        transform: translateY(26px);
-        transition:
-          opacity 0.7s ease,
-          transform 0.7s ease;
-      }
-      .rv.in {
-        opacity: 1;
-        transform: none;
-      }
-      @media (max-width: 700px) {
-        .snap {
-          display: flex;
-          overflow-x: auto;
-          scroll-snap-type: x mandatory;
-          gap: 12px;
-          margin: 0 -20px;
-          padding: 4px 20px 18px;
-          -webkit-overflow-scrolling: touch;
-          scrollbar-width: none;
-        }
-        .snap::-webkit-scrollbar {
-          display: none;
-        }
-        .snap > * {
-          flex: 0 0 84%;
-          scroll-snap-align: center;
-        }
-        #features .grid {
-          grid-template-columns: 1fr 1fr;
-          gap: 10px;
-        }
-        #features .card {
-          padding: 18px;
-        }
-        #features .card .n {
-          font-size: 24px;
-          margin-bottom: 10px;
-        }
-        #features .card h3 {
-          font-size: 16px;
-        }
-        #features .card p {
-          font-size: 13.5px;
-        }
-        #features .card:last-child {
-          grid-column: 1/-1;
-        }
-      }
-      @media (prefers-reduced-motion: reduce) {
-        * {
-          animation: none !important;
-          transition: none !important;
-        }
-        .rv,
-        .msg {
-          opacity: 1;
-          transform: none;
-        }
-        .draw {
-          stroke-dashoffset: 0;
-        }
-      }
-    </style>
-  </head>
-  <body>
-    <div id="ld" aria-hidden="true">
-      <div class="li">
-        <svg class="cat" viewBox="120 110 272 300"><use href="#mg"></use></svg>
-        <h3 class="grad">Doodz</h3>
-        <svg class="sq" viewBox="0 0 200 22">
-          <path pathLength="1" d="M10 11q15-14 30 0t30 0t30 0t30 0t30 0t30 0"></path>
-        </svg>
-        <p>Getting your doodle ready…</p>
-      </div>
-    </div>
-    <div id="bar"></div>
-    <div id="glow"></div>
+<section id="standard"><div class="wrap"><div class="sd"><div>
+<div class="eye rv">Standard Doodle</div><h2 class="rv">Fast. Clean.<br><span class="grad">Four easy steps.</span></h2>
+<p class="sub rv" style="margin-bottom:22px">Standard mode turns your picture into a crisp single-colour doodle in no time. No colour setup and no long wait. It's the quickest way to look like a doodle pro.</p>
+<ol class="st"><li class="s1"><b>1</b>Upload your image in the app</li><li class="s2"><b>2</b>Select the area to draw</li><li class="s3"><b>3</b>Select the brush</li><li class="s4"><b>4</b>Tap Start</li></ol>
+<div class="chips rv"><span>⚡ Quickest mode</span><span>🖊 Single colour</span><span>✅ No colour calibration</span></div>
+<a href="Doodz.apk" class="btn rv" style="margin-top:8px" download>Try Standard Doodle</a></div>
+<div class="sdemo rv"><svg viewBox="0 0 300 260"><g class="up"><rect x="90" y="55" width="120" height="120" rx="14" fill="#fff" stroke="#8a6fd1" stroke-width="4"/><circle cx="135" cy="95" r="12" fill="#ffd36e"/><path d="M100 165L135 120L160 150L180 130L200 165Z" fill="#8a6fd1" opacity=".7"/><text x="150" y="200" text-anchor="middle" font-size="13" fill="#7d7497" font-family="system-ui">Image uploaded</text></g><rect class="area" x="40" y="24" width="220" height="200" rx="16"/><g transform="translate(52 36) scale(.8) translate(-140 -160)"><path class="ln" pathLength="1" d="M170 230L170 160L215 195Q256 185 297 195L342 160L342 230Q372 290 330 340Q295 375 256 375Q217 375 182 340Q140 290 170 230Z"/><path class="ln" pathLength="1" d="M198 276Q212 256 226 276M286 276Q300 256 314 276"/><path class="ln" pathLength="1" d="M232 322Q256 346 280 322"/></g></svg>
+<div class="bar"><span class="br" style="width:14px;height:14px"></span><span class="br sel" style="width:22px;height:22px"></span><span class="br" style="width:32px;height:32px"></span><span class="go">▶ Start</span></div></div>
+</div></div></section>
 
-    <nav aria-label="Primary Navigation">
-      <div class="wrap">
-        <a href="/" class="logo" aria-label="Doodz Home">
-          <svg width="30" height="30" viewBox="135 150 242 235" aria-hidden="true">
-            <path
-              d="M170 230L170 160L215 195Q256 185 297 195L342 160L342 230Q372 290 330 340Q295 375 256 375Q217 375 182 340Q140 290 170 230Z"
-              fill="#fdfbff"
-              stroke="#8a6fd1"
-              stroke-width="8"
-              stroke-linejoin="round"
-            ></path>
-            <path d="M184 185L184 214L208 200Z" fill="#ffc4e0"></path>
-            <path d="M328 185L328 214L304 200Z" fill="#ffc4e0"></path>
-            <path
-              d="M198 276Q212 290 226 276M286 276Q300 290 314 276"
-              fill="none"
-              stroke="#5a4a4a"
-              stroke-width="9"
-              stroke-linecap="round"
-            ></path>
-            <path d="M246 304h20l-10 11z" fill="#ffc4e0"></path>
-          </svg>
-          Doodz
-        </a>
-        <div class="links">
-          <a href="#modes">Modes</a>
-          <a href="#how">How it works</a>
-          <a href="#features">Features</a>
-          <a href="#faq">FAQ</a>
-          <a href="#contact">Contact</a>
-        </div>
-        <a href="/Doodz.apk" class="btn" download>Get the app</a>
-      </div>
-    </nav>
+<section id="modes"><div class="wrap">
+<div class="eye rv">Two modes</div><h2 class="rv">Choose how you <span class="grad">doodle.</span></h2><p class="sub rv">Quick and clean, or slow and stunning. Same image, two ways to draw it.</p>
+<div class="grid snap">
+<div class="mode rv"><span class="badge">QUICK START</span><div class="lv">Mode 01 · ⚡ Fast</div><h3>Standard</h3><p>A clean single-colour doodle, drawn in no time. The quickest way to look like a doodle pro.</p><ol class="ml"><li>Upload your image</li><li>Select the area to draw</li><li>Select the brush</li><li>Tap Start</li></ol><div class="chips"><span>⚡ Quickest</span><span>🖊 Single colour</span><span>✅ No calibration</span></div><div class="meter"><b style="--w:40%"></b></div></div>
+<div class="mode hot rv"><span class="badge">MOST WOW</span><div class="lv">Mode 02 · 🎨 Detailed</div><h3>Hyper Doodle</h3><p>Takes its time to build a detailed, multicolour doodle using Instagram's colour palettes. Slower, and worth the wait.</p><ol class="ml"><li>Select the area to draw</li><li>Calibrate with 2 dots</li><li>Tap Start and let it paint</li></ol><div class="chips"><span>🎨 Multicolour</span><span>🔍 Most detail</span><span>🎯 2-dot calibration</span></div><div class="ring" id="ring"><span><em data-c="70" style="font-style:normal">0</em>%</span></div><p class="rn">up to a human-painted look</p><div class="meter"><b style="--w:92%"></b></div></div>
+</div></div></section>
 
-    <main>
-      <header class="hero">
-        <div class="blob" style="width: 260px; height: 260px; background: var(--a); left: -90px; top: 30px"></div>
-        <div
-          class="blob"
-          style="width: 280px; height: 280px; background: var(--c); right: -110px; top: 220px; animation-delay: -4s"
-        ></div>
-        <div class="orbit">
-          <i style="--r: min(250px, 40vw); background: #f08fc0"></i>
-          <i style="--r: min(320px, 48vw); background: #ffd36e; animation-duration: 14s"></i>
-          <i style="--r: min(190px, 32vw); background: #8a6fd1; animation-duration: 11s"></i>
-          <i style="--r: min(370px, 54vw); background: #5bbf9c; animation-duration: 18s"></i>
-        </div>
-        <div class="wrap">
-          <svg class="mascot" viewBox="120 110 272 300" role="img" aria-label="Doodz Cat Mascot holding a heart">
-            <g id="mg">
-              <g transform="translate(256 205) scale(.72) translate(-256 -270)">
-                <path
-                  d="M170 230L170 160L215 195Q256 185 297 195L342 160L342 230Q372 290 330 340Q295 375 256 375Q217 375 182 340Q140 290 170 230Z"
-                  fill="#fdfbff"
-                  stroke="#8a6fd1"
-                  stroke-width="8"
-                  stroke-linejoin="round"
-                ></path>
-                <path d="M184 185L184 214L208 200Z" fill="#ffc4e0"></path>
-                <path d="M328 185L328 214L304 200Z" fill="#ffc4e0"></path>
-                <path
-                  d="M198 276Q212 290 226 276M286 276Q300 290 314 276"
-                  fill="none"
-                  stroke="#5a4a4a"
-                  stroke-width="9"
-                  stroke-linecap="round"
-                ></path>
-                <path d="M246 304h20l-10 11z" fill="#ffc4e0"></path>
-              </g>
-              <path
-                d="M256 402C150 337 150 267 205 260C232 256 248 274 256 287C264 274 280 256 307 260C362 267 362 337 256 402Z"
-                fill="#f08fc0"
-              ></path>
-              <ellipse cx="212" cy="270" rx="22" ry="15" fill="#fdfbff" stroke="#8a6fd1" stroke-width="5"></ellipse>
-              <ellipse cx="300" cy="270" rx="22" ry="15" fill="#fdfbff" stroke="#8a6fd1" stroke-width="5"></ellipse>
-            </g>
-          </svg>
-          <span class="fh" style="left: 22%; animation-delay: 0s">♥</span>
-          <span class="fh" style="left: 38%; animation-delay: 1.5s">♥</span>
-          <span class="fh" style="left: 62%; animation-delay: 3s">♥</span>
-          <span class="fh" style="left: 78%; animation-delay: 4.5s">♥</span>
-          <span class="tag">
-            <b>●</b>
-            Instagram DM Auto-Draw · Android
-          </span>
-          <h1>
-            Doodle like a
-            <br />
-            <em class="grad" id="w">pro.</em>
-          </h1>
-          <p>
-            <strong>Doodz</strong> automatically draws any photo, portrait, or logo inside your Instagram DM doodles. Go
-            <b>Standard</b>
-            for a fast single-colour sketch, or
-            <b>Hyper Doodle</b>
-            for a detailed multicolour masterpiece.
-          </p>
-          <div class="cta">
-            <a href="/Doodz.apk" class="btn pulse" download>Download for Android</a>
-            <a href="#modes" class="btn o">Compare modes</a>
-          </div>
-          <div class="stage">
-            <div class="phone">
-              <div class="top">Instagram · Doodle</div>
-              <svg viewBox="0 0 250 440" role="img" aria-label="Live Instagram doodle auto-drawing animation">
-                <rect width="250" height="440" fill="#fff"></rect>
-                <path
-                  class="draw"
-                  pathLength="1"
-                  stroke="#f08fc0"
-                  d="M125 90 C60 90 40 180 80 230 C100 255 125 280 125 300 C125 280 150 255 170 230 C210 180 190 90 125 90Z"
-                ></path>
-                <path
-                  class="draw"
-                  pathLength="1"
-                  stroke="#ffd36e"
-                  d="M40 330 C80 300 120 360 160 330 S220 310 225 340"
-                ></path>
-                <path class="draw" pathLength="1" stroke="#8a6fd1" d="M60 50 l8 -16 l8 16 l-16 -10 h16z"></path>
-                <path
-                  class="draw"
-                  pathLength="1"
-                  stroke="#5bbf9c"
-                  d="M190 60 C210 40 225 60 205 80 C190 90 180 75 190 60Z"
-                ></path>
-                <path class="draw" pathLength="1" stroke="#7fb8f0" d="M30 390 C80 370 170 410 220 385"></path>
-              </svg>
-            </div>
-            <div class="chat" id="chat1">
-              <div class="msg">
-                <small>Priya</small>
-                wait… did you draw this by hand??
-              </div>
-              <div class="msg me">
-                <small>You</small>
-                obviously 😎
-              </div>
-              <div class="msg">
-                <small>Rahul</small>
-                bro that's insane, teach me
-              </div>
-              <div class="msg me">
-                <small>You</small>
-                a magician never reveals 🎩
-              </div>
-            </div>
-          </div>
-        </div>
-      </header>
+<section><div class="wrap">
+<div class="eye rv">Colour matching</div><h2 class="rv">Instagram's colours,<br><span class="grad">matched smartly.</span></h2><p class="sub rv">Hyper Doodle works with the colours Instagram's doodle tool offers, so every part of your image is mapped to the closest colour Instagram allows. The result stays as true to the original as the palette permits.</p>
+<div class="spec rv"></div>
+<div class="ba rv"><div><svg viewBox="0 0 100 100"><defs><linearGradient id="gg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#f08fc0"/><stop offset=".5" stop-color="#ffd36e"/><stop offset="1" stop-color="#8a6fd1"/></linearGradient></defs><circle cx="50" cy="50" r="38" fill="url(#gg)"/></svg>Your image</div><div><svg viewBox="0 0 100 100"><circle cx="50" cy="50" r="38" fill="url(#gg)"/></svg>Closest Instagram colours</div></div>
+</div></section>
 
-      <div class="marq" aria-hidden="true">
-        <div>
-          Standard Doodle
-          <span>✦</span>
-          Hyper Doodle
-          <span>✦</span>
-          Impress everyone
-          <span>✦</span>
-          Hands-free Auto-Draw
-          <span>✦</span>
-          Pixel-perfect
-          <span>✦</span>
-          Draw like a pro
-          <span>✦</span>
-          Impress everyone
-          <span>✦</span>
-          Hands-free Auto-Draw
-          <span>✦</span>
-          Pixel-perfect
-          <span>✦</span>
-        </div>
-      </div>
+<section id="how"><div class="wrap">
+<div class="eye rv">How it works</div><h2 class="rv">Five steps to legend status.</h2><p class="sub rv">Set it up once and every doodle after is a one-tap flex. Standard mode skips the calibration step.</p>
+<div class="steps" id="steps"><i></i>
+<div class="step rv" data-n="1"><h3>Enable accessibility</h3><p>Turn on the Accessibility permission. It's the only permission the app needs.</p></div>
+<div class="step rv" data-n="2"><h3>Send &amp; select your image</h3><p>Send the picture in an Instagram chat, then select the same picture in the app as the reference.</p></div>
+<div class="step rv" data-n="3"><h3>Choose where to draw</h3><p>Drag and resize the box on a screenshot to set exactly where the drawing lands.</p></div>
+<div class="step rv" data-n="4"><em>Hyper Doodle only</em><h3>Calibrate with 2 dots</h3><p>Dot 1 goes on Instagram's colour picker. Then select the picker and you'll see the brush's rest point in the middle of the screen: place dot 2 there, then deselect the picker.</p></div>
+<div class="step rv" data-n="5"><h3>Press start &amp; relax</h3><p>Your phone taps, swaps colours and draws every line. Just show your friends.</p></div>
+</div></div></section>
 
-      <section id="story">
-        <div class="wrap">
-          <div class="eye rv">The ultimate Instagram DM flex</div>
-          <h2 class="rv">
-            Your Instagram doodles.
-            <br />
-            <span class="grad">Suddenly professional.</span>
-          </h2>
-          <p class="sub rv">
-            Everyone else scribbles stick figures. With Doodz, you'll send realistic portraits, custom logos, and anime
-            artwork—drawn live in the Instagram chat. Zero drawing talent required.
-          </p>
-          <div class="grid snap">
-            <div class="card rv">
-              <span class="n">😮</span>
-              <h3>Jaws drop</h3>
-              <p>Watch the chat reactions roll in as a full photo-accurate drawing appears stroke by stroke.</p>
-            </div>
-            <div class="card rv">
-              <span class="n">⚡</span>
-              <h3>Zero skill needed</h3>
-              <p>You pick any image from your gallery. Doodz handles the colour matching, lines, and screen taps.</p>
-            </div>
-            <div class="card rv">
-              <span class="n">🎭</span>
-              <h3>Keep the secret</h3>
-              <p>It draws strokes naturally just like a human artist would, so nobody in your DMs has to know.</p>
-            </div>
-          </div>
-        </div>
-      </section>
+<section id="features"><div class="wrap">
+<div class="eye rv">Features</div><h2 class="rv">Under the hood.</h2><p class="sub rv">Smart enough to draw like an artist, simple enough to use in minutes.</p>
+<div class="grid">
+<div class="card rv"><span class="n">🎨</span><h3>Smart colour matching</h3><p>Maps each shade in your image to the closest colour Instagram allows.</p></div>
+<div class="card rv"><span class="n">✏️</span><h3>Stroke generation</h3><p>Turns colour regions into efficient lines for a clean result.</p></div>
+<div class="card rv"><span class="n">🎯</span><h3>Precise placement</h3><p>Your image is copied faithfully and scaled to fit exactly where you choose.</p></div>
+<div class="card rv"><span class="n">🔍</span><h3>Preview first</h3><p>See colours, size and line count before the first stroke.</p></div>
 
-      <div class="marq r" aria-hidden="true">
-        <div>
-          Instagram Doodle
-          <span>✦</span>
-          Auto-draw
-          <span>✦</span>
-          Palette match
-          <span>✦</span>
-          Instagram Doodle
-          <span>✦</span>
-          Auto-draw
-          <span>✦</span>
-          Palette match
-          <span>✦</span>
-          Instagram Doodle
-          <span>✦</span>
-          Auto-draw
-          <span>✦</span>
-          Palette match
-          <span>✦</span>
-        </div>
-      </div>
+<div class="card rv"><span class="n">🔒</span><h3>Private</h3><p>Images and screenshots are processed on your device.</p></div>
+</div></div></section>
 
-      <section id="standard">
-        <div class="wrap">
-          <div class="sd">
-            <div>
-              <div class="eye rv">Standard Doodle Mode</div>
-              <h2 class="rv">
-                Fast. Clean.
-                <br />
-                <span class="grad">Four easy steps.</span>
-              </h2>
-              <p class="sub rv" style="margin-bottom: 22px">
-                Standard mode turns any picture into a crisp single-colour Instagram doodle in seconds. No colour setup
-                and no waiting—the fastest way to auto-draw in Instagram chat.
-              </p>
-              <ol class="st">
-                <li class="s1">
-                  <b>1</b>
-                  Upload your image in the Doodz app
-                </li>
-                <li class="s2">
-                  <b>2</b>
-                  Select the screen area to draw
-                </li>
-                <li class="s3">
-                  <b>3</b>
-                  Select your Instagram brush
-                </li>
-                <li class="s4">
-                  <b>4</b>
-                  Tap Start to auto-draw
-                </li>
-              </ol>
-              <div class="chips rv">
-                <span>⚡ Quickest mode</span>
-                <span>🖊 Single colour</span>
-                <span>✅ No colour calibration</span>
-              </div>
-              <a href="/Doodz.apk" class="btn rv" style="margin-top: 8px" download>Try Standard Doodle</a>
-            </div>
-            <div class="sdemo rv">
-              <svg viewBox="0 0 300 260" role="img" aria-label="Standard mode 4-step Instagram doodle demonstration">
-                <g class="up">
-                  <rect
-                    x="90"
-                    y="55"
-                    width="120"
-                    height="120"
-                    rx="14"
-                    fill="#fff"
-                    stroke="#8a6fd1"
-                    stroke-width="4"
-                  ></rect>
-                  <circle cx="135" cy="95" r="12" fill="#ffd36e"></circle>
-                  <path d="M100 165L135 120L160 150L180 130L200 165Z" fill="#8a6fd1" opacity=".7"></path>
-                  <text x="150" y="200" text-anchor="middle" font-size="13" fill="#7d7497" font-family="system-ui">
-                    Image uploaded
-                  </text>
-                </g>
-                <rect class="area" x="40" y="24" width="220" height="200" rx="16"></rect>
-                <g transform="translate(52 36) scale(.8) translate(-140 -160)">
-                  <path
-                    class="ln"
-                    pathLength="1"
-                    d="M170 230L170 160L215 195Q256 185 297 195L342 160L342 230Q372 290 330 340Q295 375 256 375Q217 375 182 340Q140 290 170 230Z"
-                  ></path>
-                  <path class="ln" pathLength="1" d="M198 276Q212 256 226 276M286 276Q300 256 314 276"></path>
-                  <path class="ln" pathLength="1" d="M232 322Q256 346 280 322"></path>
-                </g>
-              </svg>
-              <div class="bar">
-                <span class="br" style="width: 14px; height: 14px"></span>
-                <span class="br sel" style="width: 22px; height: 22px"></span>
-                <span class="br" style="width: 32px; height: 32px"></span>
-                <span class="go">▶ Start</span>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
+<section><div class="wrap">
+<div class="eye rv">Before → After</div><h2 class="rv">From photo to doodle.</h2><br>
+<div class="ba rv"><div><svg viewBox="0 0 100 100"><circle cx="50" cy="40" r="22" fill="#c9a27a"/><rect x="25" y="62" width="50" height="30" rx="14" fill="#4a6fa5"/><circle cx="42" cy="38" r="3"/><circle cx="58" cy="38" r="3"/></svg>Your image</div>
+<div><svg viewBox="0 0 100 100" fill="none" stroke-width="3" stroke-linecap="round"><circle class="draw" pathLength="1" cx="50" cy="40" r="22" stroke="#f08fc0"/><rect class="draw" pathLength="1" x="25" y="62" width="50" height="30" rx="14" stroke="#8a6fd1"/><path class="draw" pathLength="1" d="M42 38h0M58 38h0" stroke="#ffd36e"/></svg>Exact doodle copy</div></div>
+</div></section>
 
-      <section id="modes">
-        <div class="wrap">
-          <div class="eye rv">Two Auto-Draw Modes</div>
-          <h2 class="rv">
-            Choose how you
-            <span class="grad">doodle.</span>
-          </h2>
-          <p class="sub rv">Quick and clean, or slow and stunning. Same reference image, two ways to draw it.</p>
-          <div class="grid snap">
-            <article class="mode rv">
-              <span class="badge">QUICK START</span>
-              <div class="lv">Mode 01 · ⚡ Fast</div>
-              <h3>Standard</h3>
-              <p>A clean single-colour doodle, drawn in no time. The quickest way to look like a doodle pro.</p>
-              <ol class="ml">
-                <li>Upload your image</li>
-                <li>Select the area to draw</li>
-                <li>Select the brush</li>
-                <li>Tap Start</li>
-              </ol>
-              <div class="chips">
-                <span>⚡ Quickest</span>
-                <span>🖊 Single colour</span>
-                <span>✅ No calibration</span>
-              </div>
-              <div class="meter"><b style="--w: 40%"></b></div>
-            </article>
-            <article class="mode hot rv">
-              <span class="badge">MOST WOW</span>
-              <div class="lv">Mode 02 · 🎨 Detailed</div>
-              <h3>Hyper Doodle</h3>
-              <p>
-                Takes its time to build a detailed, multicolour doodle using Instagram's native colour palettes. Slower,
-                and worth every second of the wait.
-              </p>
-              <ol class="ml">
-                <li>Select the area to draw</li>
-                <li>Calibrate with 2 dots</li>
-                <li>Tap Start and let it paint</li>
-              </ol>
-              <div class="chips">
-                <span>🎨 Multicolour</span>
-                <span>🔍 Most detail</span>
-                <span>🎯 2-dot calibration</span>
-              </div>
-              <div class="ring" id="ring">
-                <span>
-                  <em data-c="70" style="font-style: normal">0</em>
-                  %
-                </span>
-              </div>
-              <p class="rn">up to a human-painted look</p>
-              <div class="meter"><b style="--w: 92%"></b></div>
-            </article>
-          </div>
-        </div>
-      </section>
+<section id="tutorial"><div class="wrap">
+<div class="eye rv">Tutorial</div><h2 class="rv">Learn it in <span class="grad">30 seconds.</span></h2><p class="sub rv">Five quick steps. Standard mode skips the calibration step. Tap any step or just watch the phone.</p>
+<div class="tut rv"><div class="tl" id="tl">
+<div class="ti on"><b>1</b><div><h4>Enable accessibility</h4><p>Turn on the Accessibility permission. It is the only permission the app needs.</p></div><i></i></div>
+<div class="ti"><b>2</b><div><h4>Send &amp; select your image</h4><p>Send the picture in an Instagram chat, then pick the same picture in the app.</p></div><i></i></div>
+<div class="ti"><b>3</b><div><h4>Choose where to draw</h4><p>Drag and resize the box on your screenshot to set the drawing area.</p></div><i></i></div>
+<div class="ti"><b>4</b><div><h4>Hyper Doodle: calibrate with 2 dots</h4><p>Dot 1: place it on Instagram's colour picker. Dot 2: select the picker and you'll see the brush's rest point in the middle of the screen. Place the dot there, then deselect the picker.</p></div><i></i></div>
+<div class="ti"><b>5</b><div><h4>Press start &amp; relax</h4><p>The app draws every line. Just show your friends.</p></div><i></i></div>
+</div>
+<div class="tp" id="tp">
+<div class="sc on"><h5>Setup</h5><div class="sw">Accessibility<s></s></div><p style="font-size:12px;color:#777;margin-top:14px">That's the only permission needed.</p></div>
+<div class="sc"><h5>Select image</h5><div class="pic fly"></div><div class="bub">Instagram chat</div></div>
+<div class="sc"><h5>Destination</h5><div class="shot"><div class="box"></div></div></div>
+<div class="sc"><h5>Calibration</h5><div class="cal"><div class="pk"></div><div class="strip"></div><div class="rest"></div><div class="mk m1">1</div><div class="mk m2">2</div></div><p class="cap c1">Dot 1: place it on the colour picker</p><p class="cap c2">Dot 2: select the picker, place it on the middle-of-screen rest point, then deselect it</p></div>
+<div class="sc"><h5>Drawing…</h5><div class="dsc"><svg viewBox="0 0 230 300"><path pathLength="1" stroke="#f08fc0" d="M115 90 C60 90 45 160 80 200 C100 220 115 235 115 250 C115 235 130 220 150 200 C185 160 170 90 115 90Z"/><path pathLength="1" stroke="#ffd36e" d="M30 270 C80 240 150 290 200 260"/><path pathLength="1" stroke="#8a6fd1" d="M40 40 C80 20 150 20 190 50"/></svg><span class="fing">👆</span></div><div style="text-align:center"><span class="pill">▶ Start</span></div></div>
+</div></div>
+</div></section>
 
-      <section id="colour-matching">
-        <div class="wrap">
-          <div class="eye rv">Colour matching</div>
-          <h2 class="rv">
-            Instagram's colours,
-            <br />
-            <span class="grad">matched smartly.</span>
-          </h2>
-          <p class="sub rv">
-            Hyper Doodle works directly with the shades Instagram's doodle tool offers, mapping every region of your
-            photo to the closest colour Instagram allows. The result stays as true to your original image as the palette
-            permits.
-          </p>
-          <div class="spec rv"></div>
-          <div class="ba rv">
-            <div>
-              <svg viewBox="0 0 100 100" role="img" aria-label="Original uploaded image colours">
-                <defs>
-                  <linearGradient id="gg" x1="0" y1="0" x2="1" y2="1">
-                    <stop stop-color="#f08fc0"></stop>
-                    <stop offset=".5" stop-color="#ffd36e"></stop>
-                    <stop offset="1" stop-color="#8a6fd1"></stop>
-                  </linearGradient>
-                </defs>
-                <circle cx="50" cy="50" r="38" fill="url(#gg)"></circle>
-              </svg>
-              Your image
-            </div>
-            <div>
-              <svg viewBox="0 0 100 100" role="img" aria-label="Matched Instagram doodle palette colours">
-                <circle cx="50" cy="50" r="38" fill="url(#gg)"></circle>
-              </svg>
-              Closest Instagram colours
-            </div>
-          </div>
-        </div>
-      </section>
+<section><div class="wrap">
+<div class="eye rv">Platforms</div><h2 class="rv">Instagram today.<br>More tomorrow.</h2><br>
+<div class="soon rv"><span class="live">● Instagram Doodle</span><span>Snapchat · soon</span><span>WhatsApp · soon</span><span>iOS · soon</span></div>
+</div></section>
 
-      <section id="how">
-        <div class="wrap">
-          <div class="eye rv">How it works</div>
-          <h2 class="rv">Five steps to legend status.</h2>
-          <p class="sub rv">
-            Set it up once and every Instagram doodle after is a one-tap flex. Standard mode skips the calibration step.
-          </p>
-          <div class="steps" id="steps">
-            <i></i>
-            <div class="step rv" data-n="1">
-              <h3>Enable accessibility</h3>
-              <p>Turn on the Android Accessibility permission. It's the only permission the app needs to draw.</p>
-            </div>
-            <div class="step rv" data-n="2">
-              <h3>Send &amp; select your image</h3>
-              <p>Send the picture in an Instagram chat, then select the same picture in Doodz as your reference.</p>
-            </div>
-            <div class="step rv" data-n="3">
-              <h3>Choose where to draw</h3>
-              <p>Drag and resize the box on a screenshot to set exactly where the drawing lands on your screen.</p>
-            </div>
-            <div class="step rv" data-n="4">
-              <em>Hyper Doodle only</em>
-              <h3>Calibrate with 2 dots</h3>
-              <p>
-                Dot 1 goes on Instagram's colour picker. Then select the picker and you'll see the brush's rest point in
-                the middle of the screen: place dot 2 there, then deselect the picker.
-              </p>
-            </div>
-            <div class="step rv" data-n="5">
-              <h3>Press start &amp; relax</h3>
-              <p>Your phone taps, swaps colours, and draws every line automatically. Just show your friends.</p>
-            </div>
-          </div>
-        </div>
-      </section>
+<section id="faq"><div class="wrap">
+<div class="eye rv">FAQ</div><h2 class="rv">Good to know</h2><p class="sub rv">Everything worth knowing before your first doodle.</p>
+<details><summary>How do I auto-draw an image on Instagram doodle?</summary><p>Install Doodz on Android and turn on its Accessibility permission. Send the picture in an Instagram chat, select the same picture in the app, choose the drawing area and tap Start. In Hyper Doodle you also calibrate two dots first: one on the colour picker and one on the brush's rest point.</p></details>
+<details><summary>Is there an app that draws on Instagram doodle automatically?</summary><p>Yes. Doodz is an Android app built for exactly this. It copies your chosen image into an Instagram doodle, either as a fast single-colour doodle (Standard) or a detailed multicolour one (Hyper Doodle).</p></details>
+<details><summary>How do I install the Doodz APK?</summary><p>Tap the download button, open the downloaded Doodz.apk file and, if Android asks, allow installs from your browser or file manager for this one install. Then open Doodz and enable the Accessibility permission.</p></details>
+<details><summary>Will using Doodz get my Instagram account banned?</summary><p>Doodz works on top of Instagram: it doesn't ask for your Instagram login or password, doesn't connect to your account and doesn't change the Instagram app. It only uses Android's Accessibility permission to tap and draw on your screen the way a finger would. Doodz isn't affiliated with or endorsed by Instagram or Meta, so we can't speak for how Instagram treats any account. Please use it responsibly.</p></details>
+<details><summary>What is Doodz?</summary><p>Doodz is an Android app that automatically draws your chosen image as a doodle inside Instagram. You pick the picture and the area, and the app handles the taps, colours and strokes for you.</p></details>
+<details><summary>What is the difference between the modes?</summary><p>Standard draws a clean single-colour doodle quickly: upload the image, select the area, select the brush and tap Start. There's no colour setup.</p><p>Hyper Doodle takes more time and builds a detailed multicolour doodle using Instagram's colour palettes. It adds a short 2-dot calibration so the app knows where the colour picker and brush rest point are on your screen.</p></details>
+<details><summary>Which mode should I start with?</summary><p>Start with Standard. It's the fastest way to see how Doodz works. Move to Hyper Doodle when you want a detailed multicolour result and don't mind it taking longer.</p></details>
+<details><summary>How long does a doodle take?</summary><p>Standard is the quickest mode. Hyper Doodle is slower because it swaps colours and draws more lines, so the time depends on how detailed your image is and how big the drawing area is. The preview shows the line count before you start, which gives you a good idea of what to expect.</p></details>
+<details><summary>Which images work best?</summary><p>Clear, well-defined images with strong shapes and contrast tend to turn out best, such as logos, portraits and bold artwork. Very busy or tiny-detail photos have to be simplified into lines and a limited palette, so they won't look identical to the original.</p></details>
+<details><summary>Will the colours match my image exactly?</summary><p>Hyper Doodle can only use the colours Instagram's doodle tool offers, so each part of your image is matched to the closest available colour. It stays as true to the original as the palette permits, but expect a palette-based look rather than a perfect photo copy.</p></details>
+<details><summary>Can I check the result before it draws?</summary><p>Yes. The preview shows colours, size and line count before the first stroke, so you can check everything before anything is drawn.</p></details>
+<details><summary>The drawing looks misaligned. What should I do?</summary><p>Check the position of your drawing area first. In Hyper Doodle, redo the 2-dot calibration: dot 1 on the colour picker, and dot 2 on the brush's rest point in the middle of the screen (visible once the picker is selected). Then deselect the picker before starting.</p></details>
+<details><summary>Which permissions does it need?</summary><p>Only the Accessibility permission. It lets the app perform the taps and swipes that draw for you. Nothing else is required.</p></details>
+<details><summary>Do my images leave my phone?</summary><p>No. Images and screenshots are analysed and the drawing plan is created on your device.</p></details>
+<details><summary>Does it work on iPhone?</summary><p>Not yet. Doodz depends on Android accessibility and overlay features. iOS is on the wish list.</p></details>
+<details><summary>Is it Instagram only?</summary><p>For now, yes. Snapchat and WhatsApp are planned next.</p></details>
+<details><summary>Is it affiliated with Instagram?</summary><p>No. Instagram is a trademark of Meta, and Doodz is not endorsed by Meta. Please use it responsibly.</p></details>
+<details><summary>How can I contact Doodz support?</summary><p>Email <a href="mailto:junaidpasha9986@gmail.com" style="color:var(--a)">junaidpasha9986@gmail.com</a> or message us on <a href="https://wa.me/917892689778" style="color:var(--a)" rel="noopener">WhatsApp (+91 78926 89778)</a> for help, bug reports, feature ideas or partnerships.</p></details>
+</div></section>
 
-      <section id="features">
-        <div class="wrap">
-          <div class="eye rv">Features</div>
-          <h2 class="rv">Under the hood.</h2>
-          <p class="sub rv">Smart enough to draw like a digital artist, simple enough to set up in under a minute.</p>
-          <div class="grid">
-            <div class="card rv">
-              <span class="n">🎨</span>
-              <h3>Smart colour matching</h3>
-              <p>Maps each shade in your photo to the closest colour Instagram's doodle tool allows.</p>
-            </div>
-            <div class="card rv">
-              <span class="n">✏️</span>
-              <h3>Intelligent stroke generation</h3>
-              <p>Converts colour regions into smooth, continuous vector-style paths for a clean result.</p>
-            </div>
-            <div class="card rv">
-              <span class="n">🎯</span>
-              <h3>Precise screen placement</h3>
-              <p>Your image is copied faithfully and scaled to fit the exact chat area you choose.</p>
-            </div>
-            <div class="card rv">
-              <span class="n">🔍</span>
-              <h3>Preview before drawing</h3>
-              <p>Check matched colours, dimensions, and total stroke count before the first line is drawn.</p>
-            </div>
-            <div class="card rv">
-              <span class="n">🔒</span>
-              <h3>100% On-device privacy</h3>
-              <p>All photos and screenshots are processed locally on your Android phone—nothing is uploaded.</p>
-            </div>
-          </div>
-        </div>
-      </section>
+<section id="contact"><div class="wrap">
+<div class="eye rv">Contact</div><h2 class="rv">Questions? <span class="grad">Say hi.</span></h2><p class="sub rv">Need help, found a bug, have a feature idea or want to partner up? Reach out on WhatsApp or email.</p>
+<div class="contact-grid">
+<div class="card cc rv"><span class="n">💬</span><h3>WhatsApp</h3><p>Fastest way to reach us. +91 78926 89778</p><a class="btn wa" href="https://wa.me/917892689778?text=Hi%20Doodz%2C%20I%20have%20a%20question%20about%20the%20app." target="_blank" rel="noopener">Chat on WhatsApp</a></div>
+<div class="card cc rv"><span class="n">✉️</span><h3>Email</h3><p>For support, press and partnerships.</p><a class="btn" href="mailto:junaidpasha9986@gmail.com?subject=Doodz%20question">junaidpasha9986@gmail.com</a></div>
+</div></div></section>
 
-      <section id="comparison">
-        <div class="wrap">
-          <div class="eye rv">Before → After</div>
-          <h2 class="rv">From photo to Instagram doodle.</h2>
-          <br />
-          <div class="ba rv">
-            <div>
-              <svg viewBox="0 0 100 100" role="img" aria-label="Portrait photo before conversion">
-                <circle cx="50" cy="40" r="22" fill="#c9a27a"></circle>
-                <rect x="25" y="62" width="50" height="30" rx="14" fill="#4a6fa5"></rect>
-                <circle cx="42" cy="38" r="3"></circle>
-                <circle cx="58" cy="38" r="3"></circle>
-              </svg>
-              Your image
-            </div>
-            <div>
-              <svg
-                viewBox="0 0 100 100"
-                fill="none"
-                stroke-width="3"
-                stroke-linecap="round"
-                role="img"
-                aria-label="Portrait converted into Instagram doodle strokes"
-              >
-                <circle class="draw" pathLength="1" cx="50" cy="40" r="22" stroke="#f08fc0"></circle>
-                <rect class="draw" pathLength="1" x="25" y="62" width="50" height="30" rx="14" stroke="#8a6fd1"></rect>
-                <path class="draw" pathLength="1" d="M42 38h0M58 38h0" stroke="#ffd36e"></path>
-              </svg>
-              Exact doodle copy
-            </div>
-          </div>
-        </div>
-      </section>
+<div class="wrap"><div class="final" id="download"><div class="blob" style="width:240px;height:240px;background:var(--a);left:-70px;top:-70px"></div><div class="blob" style="width:240px;height:240px;background:var(--c);right:-70px;bottom:-70px"></div>
+<h2>Ready to be the<br><span class="grad">doodle legend?</span></h2><p class="sub">Download Doodz and turn your favourite images into Instagram doodles.</p>
+<a href="/Doodz.apk" class="btn pulse" download>⬇ Download Doodz for Android</a></div></div>
 
-      <section id="tutorial">
-        <div class="wrap">
-          <div class="eye rv">Interactive Tutorial</div>
-          <h2 class="rv">
-            Learn it in
-            <span class="grad">30 seconds.</span>
-          </h2>
-          <p class="sub rv">
-            Five quick steps. Standard mode skips the calibration step. Tap any step or watch the interactive phone
-            preview.
-          </p>
-          <div class="tut rv">
-            <div class="tl" id="tl">
-              <div class="ti on">
-                <b>1</b>
-                <div>
-                  <h4>Enable accessibility</h4>
-                  <p>Turn on the Accessibility permission. It is the only permission the app needs.</p>
-                </div>
-                <i></i>
-              </div>
-              <div class="ti">
-                <b>2</b>
-                <div>
-                  <h4>Send &amp; select your image</h4>
-                  <p>Send the picture in an Instagram chat, then pick the same picture in the app.</p>
-                </div>
-                <i></i>
-              </div>
-              <div class="ti">
-                <b>3</b>
-                <div>
-                  <h4>Choose where to draw</h4>
-                  <p>Drag and resize the box on your screenshot to set the drawing area.</p>
-                </div>
-                <i></i>
-              </div>
-              <div class="ti">
-                <b>4</b>
-                <div>
-                  <h4>Hyper Doodle: calibrate with 2 dots</h4>
-                  <p>
-                    Dot 1: place it on Instagram's colour picker. Dot 2: select the picker and you'll see the brush's
-                    rest point in the middle of the screen. Place the dot there, then deselect the picker.
-                  </p>
-                </div>
-                <i></i>
-              </div>
-              <div class="ti">
-                <b>5</b>
-                <div>
-                  <h4>Press start &amp; relax</h4>
-                  <p>The app draws every line. Just show your friends.</p>
-                </div>
-                <i></i>
-              </div>
-            </div>
-            <div class="tp" id="tp">
-              <div class="sc on">
-                <h5>Setup</h5>
-                <div class="sw">
-                  Accessibility
-                  <s></s>
-                </div>
-                <p style="font-size: 12px; color: #777; margin-top: 14px">That's the only permission needed.</p>
-              </div>
-              <div class="sc">
-                <h5>Select image</h5>
-                <div class="pic fly"></div>
-                <div class="bub">Instagram chat</div>
-              </div>
-              <div class="sc">
-                <h5>Destination</h5>
-                <div class="shot"><div class="box"></div></div>
-              </div>
-              <div class="sc">
-                <h5>Calibration</h5>
-                <div class="cal">
-                  <div class="pk"></div>
-                  <div class="strip"></div>
-                  <div class="rest"></div>
-                  <div class="mk m1">1</div>
-                  <div class="mk m2">2</div>
-                </div>
-                <p class="cap c1">Dot 1: place it on the colour picker</p>
-                <p class="cap c2">
-                  Dot 2: select the picker, place it on the middle-of-screen rest point, then deselect it
-                </p>
-              </div>
-              <div class="sc">
-                <h5>Drawing…</h5>
-                <div class="dsc">
-                  <svg viewBox="0 0 230 300">
-                    <path
-                      pathLength="1"
-                      stroke="#f08fc0"
-                      d="M115 90 C60 90 45 160 80 200 C100 220 115 235 115 250 C115 235 130 220 150 200 C185 160 170 90 115 90Z"
-                    ></path>
-                    <path pathLength="1" stroke="#ffd36e" d="M30 270 C80 240 150 290 200 260"></path>
-                    <path pathLength="1" stroke="#8a6fd1" d="M40 40 C80 20 150 20 190 50"></path>
-                  </svg>
-                  <span class="fing">👆</span>
-                </div>
-                <div style="text-align: center"><span class="pill">▶ Start</span></div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
+</main>
+<footer><div class="wrap"><span>© 2026 Doodz · A product by <a href="https://forvano.com" rel="noopener">ForVano</a></span><span class="fl"><a href="mailto:junaidpasha9986@gmail.com">junaidpasha9986@gmail.com</a><a href="https://wa.me/917892689778" rel="noopener">WhatsApp</a><a href="/guides/how-to-auto-draw-on-instagram-doodle/">Guides</a></span><span>Not affiliated with Instagram or Meta. Last updated 2026-10-21.</span></div></footer>
 
-      <section id="platforms">
-        <div class="wrap">
-          <div class="eye rv">Supported Platforms</div>
-          <h2 class="rv">
-            Instagram today.
-            <br />
-            More tomorrow.
-          </h2>
-          <br />
-          <div class="soon rv">
-            <span class="live">● Instagram Doodle</span>
-            <span>Snapchat · soon</span>
-            <span>WhatsApp · soon</span>
-            <span>iOS · soon</span>
-          </div>
-        </div>
-      </section>
+<a class="waf" href="https://wa.me/917892689778?text=Hi%20Doodz%2C%20I%20have%20a%20question%20about%20the%20app." target="_blank" rel="noopener" aria-label="Chat with Doodz on WhatsApp"><svg viewBox="0 0 32 32" aria-hidden="true"><path fill="#fff" d="M16 3a13 13 0 0 0-11.2 19.6L3 29l6.6-1.7A13 13 0 1 0 16 3z"/><path fill="#25D366" d="M20.5 17.6c-.3-.15-1.8-.9-2.1-1s-.5-.15-.7.15-.8 1-1 1.2-.4.2-.7.05a8.3 8.3 0 0 1-2.4-1.5 9 9 0 0 1-1.7-2.1c-.2-.3 0-.5.1-.65l.5-.55c.15-.2.2-.3.3-.5a.55.55 0 0 0 0-.55c-.1-.15-.7-1.7-.95-2.3s-.5-.5-.7-.5h-.6a1.1 1.1 0 0 0-.85.4 3.5 3.5 0 0 0-1.1 2.6 6.1 6.1 0 0 0 1.3 3.2 14 14 0 0 0 5.4 4.8c2 .85 2.8.9 3.8.75a3.2 3.2 0 0 0 2.1-1.5 2.6 2.6 0 0 0 .2-1.5c-.1-.1-.3-.2-.6-.35z"/></svg></a>
+<div class="dock" id="dock"><a href="Doodz.apk" class="btn" download>Download for Android</a></div>
 
-      <section id="faq">
-        <div class="wrap">
-          <div class="eye rv">FAQ</div>
-          <h2 class="rv">Good to know</h2>
-          <p class="sub rv">Everything worth knowing before your first automated Instagram doodle.</p>
-          <details>
-            <summary>What is Doodz?</summary>
-            <p>
-              Doodz is an Android app that automatically draws your chosen image as a doodle inside Instagram. You pick
-              the picture and the area, and the app handles the taps, colours and strokes for you.
-            </p>
-          </details>
-          <details>
-            <summary>What is the difference between the modes?</summary>
-            <p>
-              Standard draws a clean single-colour doodle quickly: upload the image, select the area, select the brush
-              and tap Start. There's no colour setup.
-            </p>
-            <p>
-              Hyper Doodle takes more time and builds a detailed multicolour doodle using Instagram's colour palettes.
-              It adds a short 2-dot calibration so the app knows where the colour picker and brush rest point are on
-              your screen.
-            </p>
-          </details>
-          <details>
-            <summary>Which mode should I start with?</summary>
-            <p>
-              Start with Standard. It's the fastest way to see how Doodz works. Move to Hyper Doodle when you want a
-              detailed multicolour result and don't mind it taking longer.
-            </p>
-          </details>
-          <details>
-            <summary>How long does a doodle take?</summary>
-            <p>
-              Standard is the quickest mode. Hyper Doodle is slower because it swaps colours and draws more lines, so
-              the time depends on how detailed your image is and how big the drawing area is. The preview shows the line
-              count before you start, which gives you a good idea of what to expect.
-            </p>
-          </details>
-          <details>
-            <summary>Which images work best?</summary>
-            <p>
-              Clear, well-defined images with strong shapes and contrast tend to turn out best, such as logos, portraits
-              and bold artwork. Very busy or tiny-detail photos have to be simplified into lines and a limited palette,
-              so they won't look identical to the original.
-            </p>
-          </details>
-          <details>
-            <summary>Will the colours match my image exactly?</summary>
-            <p>
-              Hyper Doodle can only use the colours Instagram's doodle tool offers, so each part of your image is
-              matched to the closest available colour. It stays as true to the original as the palette permits, but
-              expect a palette-based look rather than a perfect photo copy.
-            </p>
-          </details>
-          <details>
-            <summary>Can I check the result before it draws?</summary>
-            <p>
-              Yes. The preview shows colours, size and line count before the first stroke, so you can check everything
-              before anything is drawn.
-            </p>
-          </details>
-          <details>
-            <summary>The drawing looks misaligned. What should I do?</summary>
-            <p>
-              Check the position of your drawing area first. In Hyper Doodle, redo the 2-dot calibration: dot 1 on the
-              colour picker, and dot 2 on the brush's rest point in the middle of the screen (visible once the picker is
-              selected). Then deselect the picker before starting.
-            </p>
-          </details>
-          <details>
-            <summary>Which permissions does it need?</summary>
-            <p>
-              Only the Accessibility permission. It lets the app perform the taps and swipes that draw for you. Nothing
-              else is required.
-            </p>
-          </details>
-          <details>
-            <summary>Do my images leave my phone?</summary>
-            <p>No. Images and screenshots are analysed and the drawing plan is created on your device.</p>
-          </details>
-          <details>
-            <summary>Does it work on iPhone?</summary>
-            <p>Not yet. Doodz depends on Android accessibility and overlay features. iOS is on the wish list.</p>
-          </details>
-          <details>
-            <summary>Is it Instagram only?</summary>
-            <p>For now, yes. Snapchat and WhatsApp are planned next.</p>
-          </details>
-          <details>
-            <summary>Is it affiliated with Instagram?</summary>
-            <p>No. Instagram is a trademark of Meta, and Doodz is not endorsed by Meta. Please use it responsibly.</p>
-          </details>
-        </div>
-      </section>
-
-      <div class="wrap">
-        <div class="final" id="download">
-          <div class="blob" style="width: 240px; height: 240px; background: var(--a); left: -70px; top: -70px"></div>
-          <div
-            class="blob"
-            style="width: 240px; height: 240px; background: var(--c); right: -70px; bottom: -70px"
-          ></div>
-
-          <h2>
-            Ready to be the
-            <br />
-            <span class="grad">doodle legend?</span>
-          </h2>
-
-          <p class="sub">Download Doodz and turn your favourite images into Instagram doodles.</p>
-
-          <a href="/Doodz.apk" class="btn pulse" download> ⬇ Download Doodz for Android </a>
-        </div>
-
-        <!-- Direct Contact & Support Section -->
-        <section id="contact" style="padding: 0">
-          <div class="contact-box rv">
-            <div>
-              <div class="eye" style="margin-bottom: 6px">Support &amp; Inquiries</div>
-              <h3>Need help or have feedback?</h3>
-              <p>
-                Have a question about calibration, feature requests, or partnerships? Reach out directly on WhatsApp or
-                email.
-              </p>
-            </div>
-            <div class="contact-actions">
-              <a
-                href="https://wa.me/917892689778?text=Hi%20Junaid%2C%20I%20checked%20out%20Doodz%20on%20doodz-rust.vercel.app!"
-                target="_blank"
-                rel="noopener noreferrer"
-                class="btn wa-btn"
-              >
-                <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
-                  <path
-                    d="M12.031 6.172c-3.181 0-5.767 2.586-5.768 5.766-.001 1.298.38 2.27 1.019 3.287l-.582 2.128 2.182-.573c.978.58 1.911.928 3.145.929 3.178 0 5.767-2.587 5.768-5.766.001-3.187-2.575-5.77-5.764-5.771zm3.392 8.244c-.144.405-.837.774-1.17.824-.299.045-.677.063-1.092-.069-.252-.08-.575-.187-.988-.365-1.739-.751-2.874-2.502-2.961-2.617-.087-.116-.708-.94-.708-1.793s.448-1.273.607-1.446c.159-.173.346-.217.462-.217l.332.006c.106.005.249-.04.39.298.144.347.491 1.2.534 1.287.043.087.072.188.014.304-.058.116-.087.188-.173.289l-.26.304c-.087.086-.177.18-.076.354.101.174.449.741.964 1.201.662.591 1.221.774 1.394.86s.274.072.376-.043c.101-.116.433-.506.549-.68.116-.173.231-.145.39-.087s1.011.477 1.184.564.289.13.332.202c.045.072.045.419-.1.824zm-3.423-14.416c-6.627 0-12 5.373-12 12 0 2.126.556 4.124 1.53 5.86l-1.53 5.586 5.735-1.504c1.693.924 3.631 1.458 5.698 1.458 6.627 0 12-5.373 12-12 0-6.627-5.373-12-11.433-11.4z"
-                  />
-                </svg>
-                WhatsApp Us
-              </a>
-              <a href="mailto:junaidpasha9986@gmail.com?subject=Doodz%20App%20Inquiry" class="btn o">
-                ✉ junaidpasha9986@gmail.com
-              </a>
-            </div>
-          </div>
-        </section>
-      </div>
-    </main>
-
-    <footer>
-      <div class="wrap">
-        <span>
-          © 2026 Doodz · A product by
-          <a href="https://forvano.com" rel="noopener">ForVano</a>
-        </span>
-        <div class="footer-links">
-          <a href="mailto:junaidpasha9986@gmail.com">junaidpasha9986@gmail.com</a>
-          <span>·</span>
-          <a
-            href="https://wa.me/917892689778?text=Hi%20Junaid%2C%20I%20checked%20out%20Doodz%20on%20doodz-rust.vercel.app!"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            WhatsApp: +91 78926 89778
-          </a>
-        </div>
-        <span>Not affiliated with Instagram or Meta.</span>
-      </div>
-    </footer>
-
-    <!-- Floating WhatsApp Quick-Chat Button -->
-    <a
-      href="https://wa.me/917892689778?text=Hi%20Junaid%2C%20I%20checked%20out%20Doodz%20on%20doodz-rust.vercel.app!"
-      class="wa-float"
-      target="_blank"
-      rel="noopener noreferrer"
-      aria-label="Chat with us on WhatsApp at +91 78926 89778"
-      title="Chat on WhatsApp"
-    >
-      <svg viewBox="0 0 24 24" aria-hidden="true">
-        <path
-          d="M12.031 6.172c-3.181 0-5.767 2.586-5.768 5.766-.001 1.298.38 2.27 1.019 3.287l-.582 2.128 2.182-.573c.978.58 1.911.928 3.145.929 3.178 0 5.767-2.587 5.768-5.766.001-3.187-2.575-5.77-5.764-5.771zm3.392 8.244c-.144.405-.837.774-1.17.824-.299.045-.677.063-1.092-.069-.252-.08-.575-.187-.988-.365-1.739-.751-2.874-2.502-2.961-2.617-.087-.116-.708-.94-.708-1.793s.448-1.273.607-1.446c.159-.173.346-.217.462-.217l.332.006c.106.005.249-.04.39.298.144.347.491 1.2.534 1.287.043.087.072.188.014.304-.058.116-.087.188-.173.289l-.26.304c-.087.086-.177.18-.076.354.101.174.449.741.964 1.201.662.591 1.221.774 1.394.86s.274.072.376-.043c.101-.116.433-.506.549-.68.116-.173.231-.145.39-.087s1.011.477 1.184.564.289.13.332.202c.045.072.045.419-.1.824zm-3.423-14.416c-6.627 0-12 5.373-12 12 0 2.126.556 4.124 1.53 5.86l-1.53 5.586 5.735-1.504c1.693.924 3.631 1.458 5.698 1.458 6.627 0 12-5.373 12-12 0-6.627-5.373-12-11.433-11.4z"
-        />
-      </svg>
-    </a>
-
-    <div class="dock" id="dock"><a href="/Doodz.apk" class="btn" download>Download for Android</a></div>
-
-    <script>
-      var io = new IntersectionObserver(
-        function (e) {
-          e.forEach(function (x) {
-            if (x.isIntersecting) {
-              x.target.classList.add("in");
-              io.unobserve(x.target);
-            }
-          });
-        },
-        { threshold: 0.12 },
-      );
-      document.querySelectorAll(".rv,#chat1,.meter").forEach(function (el) {
-        io.observe(el);
-      });
-      var words = ["pro.", "legend.", "artist.", "genius."],
-        wi = 0,
-        w = document.getElementById("w");
-      setInterval(function () {
-        wi = (wi + 1) % words.length;
-        w.textContent = words[wi];
-      }, 2200);
-      var bar = document.getElementById("bar"),
-        st = document.getElementById("steps"),
-        dock = document.getElementById("dock"),
-        dl = document.getElementById("download");
-      function onS() {
-        var h = document.documentElement;
-        bar.style.width = (h.scrollTop / (h.scrollHeight - h.clientHeight)) * 100 + "%";
-        var r = st.getBoundingClientRect();
-        st.style.setProperty("--p", Math.max(0, Math.min(100, ((innerHeight * 0.6 - r.top) / r.height) * 100)) + "%");
-        var d = dl.getBoundingClientRect();
-        dock.classList.toggle("show", scrollY > 500 && d.top > innerHeight);
-      }
-      addEventListener("scroll", onS, { passive: true });
-      onS();
-      var cio = new IntersectionObserver(function (e) {
-        e.forEach(function (x) {
-          if (!x.isIntersecting) return;
-          var el = x.target,
-            t = +el.dataset.c,
-            s = performance.now();
-          (function f(n) {
-            var p = Math.min((n - s) / 1400, 1);
-            el.textContent = Math.round(t * p);
-            if (p < 1) requestAnimationFrame(f);
-          })(s);
-          cio.unobserve(el);
-        });
-      });
-      document.querySelectorAll("[data-c]").forEach(function (el) {
-        cio.observe(el);
-      });
-      var rg = document.getElementById("ring");
-      new IntersectionObserver(function (e, o) {
-        if (e[0].isIntersecting) {
-          var s = performance.now();
-          (function f(n) {
-            var p = Math.min((n - s) / 1600, 1);
-            rg.style.setProperty("--p2", 90 * p);
-            if (p < 1) requestAnimationFrame(f);
-          })(s);
-          o.disconnect();
-        }
-      }).observe(rg);
-      var ti = document.querySelectorAll(".ti"),
-        sc = document.querySelectorAll(".sc"),
-        cur = 0,
-        tm;
-      function go(n) {
-        cur = n;
-        ti.forEach(function (e, i) {
-          e.classList.remove("on");
-          if (i == n) {
-            void e.offsetWidth;
-            e.classList.add("on");
-          }
-        });
-        sc.forEach(function (e, i) {
-          e.classList.toggle("on", i == n);
-        });
-        clearTimeout(tm);
-        tm = setTimeout(function () {
-          go((cur + 1) % ti.length);
-        }, 5000);
-      }
-      ti.forEach(function (e, i) {
-        e.onclick = function () {
-          go(i);
-        };
-      });
-      go(0);
-      (function () {
-        var l = document.getElementById("ld"),
-          t = Date.now(),
-          d = false;
-        function hide() {
-          if (d) return;
-          d = true;
-          setTimeout(
-            function () {
-              l.classList.add("out");
-              setTimeout(function () {
-                l.remove();
-              }, 700);
-            },
-            Math.max(0, 1700 - (Date.now() - t)),
-          );
-        }
-        if (document.readyState === "complete") hide();
-        else addEventListener("load", hide);
-        setTimeout(hide, 4000);
-      })();
-      addEventListener("pointermove", function (e) {
-        var g = document.getElementById("glow");
-        g.style.left = e.clientX + "px";
-        g.style.top = e.clientY + "px";
-      });
-    </script>
-  </body>
-</html>
+<script>
+var io=new IntersectionObserver(function(e){e.forEach(function(x){if(x.isIntersecting){x.target.classList.add('in');io.unobserve(x.target)}})},{threshold:.12});
+document.querySelectorAll('.rv,#chat1,.meter').forEach(function(el){io.observe(el)});
+var words=['pro.','legend.','artist.','genius.'],wi=0,w=document.getElementById('w');
+setInterval(function(){wi=(wi+1)%words.length;w.textContent=words[wi]},2200);
+var bar=document.getElementById('bar'),st=document.getElementById('steps'),dock=document.getElementById('dock'),dl=document.getElementById('download');
+function onS(){var h=document.documentElement;bar.style.width=(h.scrollTop/(h.scrollHeight-h.clientHeight)*100)+'%';var r=st.getBoundingClientRect();st.style.setProperty('--p',Math.max(0,Math.min(100,(innerHeight*.6-r.top)/r.height*100))+'%');var d=dl.getBoundingClientRect();dock.classList.toggle('show',scrollY>500&&d.top>innerHeight)}
+addEventListener('scroll',onS,{passive:true});onS();
+var cio=new IntersectionObserver(function(e){e.forEach(function(x){if(!x.isIntersecting)return;var el=x.target,t=+el.dataset.c,s=performance.now();(function f(n){var p=Math.min((n-s)/1400,1);el.textContent=Math.round(t*p);if(p<1)requestAnimationFrame(f)})(s);cio.unobserve(el)})});
+document.querySelectorAll('[data-c]').forEach(function(el){cio.observe(el)});
+var rg=document.getElementById('ring');new IntersectionObserver(function(e,o){if(e[0].isIntersecting){var s=performance.now();(function f(n){var p=Math.min((n-s)/1600,1);rg.style.setProperty('--p2',70*p);if(p<1)requestAnimationFrame(f)})(s);o.disconnect()}}).observe(rg);
+var ti=document.querySelectorAll('.ti'),sc=document.querySelectorAll('.sc'),cur=0,tm;
+function go(n){cur=n;ti.forEach(function(e,i){e.classList.remove('on');if(i==n){void e.offsetWidth;e.classList.add('on')}});sc.forEach(function(e,i){e.classList.toggle('on',i==n)});clearTimeout(tm);tm=setTimeout(function(){go((cur+1)%ti.length)},5000)}
+ti.forEach(function(e,i){e.onclick=function(){go(i)}});go(0);
+(function(){var l=document.getElementById('ld'),t=Date.now(),d=false;function hide(){if(d)return;d=true;setTimeout(function(){l.classList.add('out');setTimeout(function(){l.remove()},700)},Math.max(0,900-(Date.now()-t)))}if(document.readyState==='complete')hide();else addEventListener('load',hide);setTimeout(hide,4000)})();
+addEventListener('pointermove',function(e){var g=document.getElementById('glow');g.style.left=e.clientX+'px';g.style.top=e.clientY+'px'});
+</script>
+</body></html>
